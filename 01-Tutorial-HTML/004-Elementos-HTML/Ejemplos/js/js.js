@@ -11,19 +11,24 @@ function ini() {
         corazon[i].style.height = "64px";
     }
 }
-window.addEventListener('load', ini, false); //ejecuta la funcion ini al cargar el documento
+window.addEventListener('load', ini, false);
+//ejecuta la funcion ini al cargar el documento
 
 function CreaElemento() {
-    document.createElement('mielemento'); //creamos el elemento corazon
-    var mielemento = document.getElementsByTagName('mielemento'); //llamamos todos los elemento corazon del documento
+    document.createElement('mielemento');
+    //creamos el elemento corazon
+    var elementonuevo = document.getElementsByTagName('mielemento');
+    //llamamos todos los elemento corazon del documento
     var i;
-    for (i = 0; i < mielemento.length; i++) { //ejecuta acciones para esos elementos
+    for (i = 0; i < elementonuevo.length; i++) {
+        //ejecuta acciones para esos elementos
         //creamos estilos para nuetras etiquetas
-        mielemento[i].style.backgroundColor = 'blue';
-        mielemento[i].style.position = "relative";
-        mielemento[i].style.display = "block";
-        mielemento[i].style.width = "64px";
-        mielemento[i].style.height = "64px";
+        elementonuevo[i].style.backgroundColor = 'blue';
+        elementonuevo[i].style.position = "relative";
+        elementonuevo[i].style.display = "block";
+        elementonuevo[i].style.width = "64px";
+        elementonuevo[i].style.height = "64px";
     }
 }
-window.addEventListener('load', CreaElemento, false); //ejecuta la funcion ini al cargar el documento
+window.addEventListener('load', CreaElemento, false);
+//ejecuta la funcion ini al cargar el documento

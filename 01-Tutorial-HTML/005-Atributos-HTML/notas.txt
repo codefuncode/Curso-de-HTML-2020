@@ -1,0 +1,34 @@
+
+
+================================================================
+acceskey
+Posicionamiento en buscadores
+
+Atributos de imagen alt: ¿relevantes para usabilidad y SEO?
+https://www.woorank.com/es/blog/atributo-imagen-alt-usabilidad-seo
+
+Atributo de título HTML
+https://www.w3schools.com/TAGS/att_global_title.asp
+Definición y uso
+
+El atributo de título especifica información adicional sobre un elemento.
+
+La información se muestra con mayor frecuencia como texto de información sobre herramientas cuando el mouse se mueve sobre el elemento.
+
+El atributo de título se puede usar en cualquier elemento HTML (se validará en cualquier elemento HTML. Sin embargo, no es necesariamente útil).
+
+
+
+Atributo alt HTML
+https://www.w3schools.com/TAGS/att_alt.asp
+
+Definición y uso
+
+El atributo alt proporciona información alternativa para una imagen si un usuario por alguna razón no puede verla (debido a una conexión lenta, un error en el atributo src o si el usuario usa un lector de pantalla).
+
+Nota: El atributo alt es requerido para el elemento img.
+
+Nota: Para los elementos de entrada, el atributo alt solo se puede usar con input type = 'image'.
+
+Sugerencia: Para crear una información sobre herramientas para una imagen, use el atributo title.ope
+================================================================
