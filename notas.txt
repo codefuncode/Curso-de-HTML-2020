@@ -1,4 +1,16 @@
 
 
-Tutorial  modulo 1  compleado 
+Progreso 
 
+01-Tutorial-HTML
+	001-Introduccion-HTML
+	002-Editores-HTML
+	003-HTML-basico
+	004-Elementos-HTML
+	005-Atributos-HTML
+	006-Encabezados-HTML
+	007-Parrafos-HTML
+
+
+Nota de seguimiento
+	Incorporar los texto de los documentos .odt en el archivo notas.txt  creado como hijo inmediato de cada directorio. Con el fin de facilitar el acceso al material dado  y ser transparente en cuanto a los textos usados. Las referencias están al principio en el archivo readme.md  y considero redundante su aplicación 

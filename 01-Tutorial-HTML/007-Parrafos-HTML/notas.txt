@@ -1,0 +1,42 @@
+Textos usados para dar el tutorial 
+
+Un párrafo siempre comienza en una nueva línea, y generalmente es un bloque de texto.
+Párrafos HTML
+
+El elemento HTML p define un párrafo.
+
+Un párrafo siempre comienza en una nueva línea, y los navegadores agregan automáticamente un espacio en blanco (un margen) antes y después de un párrafo.
+
+Visualización HTML
+
+No puede estar seguro de cómo se mostrará HTML.
+
+Las pantallas grandes o pequeñas y las ventanas redimensionadas crearán resultados diferentes.
+
+Con HTML, no puede cambiar la salida agregando espacios adicionales o líneas adicionales en su código HTML.
+
+El navegador eliminará los espacios y líneas adicionales cuando se muestre la página:
+
+No olvides la etiqueta final
+
+La mayoría de los navegadores mostrarán HTML correctamente incluso si olvida la etiqueta final:
+
+El ejemplo anterior funcionará en la mayoría de los navegadores, pero no confíe en él.
+
+Nota: Dejar caer la etiqueta final puede producir resultados inesperados o errores.
+Saltos de línea HTML
+
+El elemento HTML br define un salto de línea.
+
+Use br si desea un salto de línea (una nueva línea) sin comenzar un nuevo párrafo:
+
+La etiqueta br es una etiqueta vacía, lo que significa que no tiene etiqueta final.
+El problema del poema
+
+Este poema se mostrará en una sola línea:
+
+El elemento pre HTML
+
+El elemento previo HTML define texto preformateado.
+
+El texto dentro de un elemento previo se muestra en una fuente de ancho fijo (generalmente Courier), y conserva espacios y saltos de línea:
