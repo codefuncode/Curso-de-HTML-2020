@@ -1,0 +1,38 @@
+El atributo de estilo HTML
+
+La configuración del estilo de un elemento HTML se puede hacer con el atributo de estilo.
+
+El atributo de estilo HTML tiene la siguiente sintaxis:
+
+La propiedad es una propiedad CSS. El valor es un valor CSS.
+
+Aprenderá más sobre CSS más adelante en este tutorial.
+Color de fondo
+
+La propiedad CSS-color de fondo define el color de fondo para un elemento HTML.
+
+Este ejemplo establece el color de fondo para una página en polvo azul:
+
+Color de texto
+
+La propiedad de color CSS define el color del texto para un elemento HTML:
+
+Fuentes
+
+La propiedad CSS font-family define la fuente que se utilizará para un elemento HTML:
+
+Tamano del texto
+
+La propiedad de tamaño de fuente CSS define el tamaño del texto para un elemento HTML:
+
+Alineación del texto
+
+La propiedad de alineación de texto CSS define la alineación horizontal del texto para un elemento HTML:
+Resumen del capítulo
+
+    Use el atributo de estilo para diseñar elementos HTML
+    Usar color de fondo para el color de fondo
+    Usar color para colores de texto
+    Use font-family para fuentes de texto
+    Usar tamaño de fuente para tamaños de texto
+    Usar alineación de texto para alineación de texto

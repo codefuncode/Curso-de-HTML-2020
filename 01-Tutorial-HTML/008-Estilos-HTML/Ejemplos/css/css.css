@@ -1,0 +1,37 @@
+.uno {
+    color: red;
+}
+.dos {
+    color: blue;
+}
+.tres {
+    font-size: 25px;
+}
+.cuatro {
+    padding: 20px;
+    background-color: yellow;
+}
+.alineado {
+    /*text-align: left;*/
+    /*text-align: right;*/
+    /*text-align: center;*/
+    text-align: justify;
+    /*text-align: justify-all;*/
+    /*text-align: start;*/
+    /*text-align: end;*/
+}
+.tipoletra {
+    font-family: serif;
+    /*font-family: sans-serif;*/
+    /*font-family: monospace;*/
+    /*font-family: cursive;*/
+    /*font-family: fantasy;*/
+    /*font-family: system-ui;*/
+    /*font-family: ui-serif; */
+    /*font-family: ui-sans-serif; */
+    /*font-family: ui-monospace; */
+    /*font-family: ui-rounded; */
+    /*font-family: emoji;*/
+    /*font-family: math;*/
+    /*font-family: fangsong;*/
+}
