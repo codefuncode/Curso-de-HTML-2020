@@ -10,6 +10,21 @@ En este repositorio encontraras todos los documentos utilizados en el curso  ESt
 
 ---
 
+Módulos completados 
+ 
+- 01-Tutorial-HTML
+	- 001-Introduccion-HTML
+	- 002-Editores-HTML
+	- 003-HTML-basico
+	- 004-Elementos-HTML
+	- 005-Atributos-HTML
+	- 006-Encabezados-HTML
+	- 007-Parrafos-HTML
+	- 008-Estilos-HTML
+	- 009-Formato-de-texto-HTML
+
+---
+
 Referencias 
 
 
