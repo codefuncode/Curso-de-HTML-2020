@@ -6,7 +6,7 @@
 ## Bienvenido al repositorio del curso de HTML 2020
 
 
-En este repositorio encontraras todos los documentos utilizados en el curso  ESte curso esta basado en documentado confiable en linea  y se hace referencia a todos los recursos  empleados en el mismo. Este curso es detallado y pretende abarcar  la totalidad de conceptos del lenguaje. 
+En este repositorio encontraras todos los documentos utilizados en el curso  Este curso esta basado en documentado confiable en linea  y se hace referencia a todos los recursos  empleados en el mismo. Este curso es detallado y pretende abarcar  la totalidad de conceptos del lenguaje. 
 
 ---
 

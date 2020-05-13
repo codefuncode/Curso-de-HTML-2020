@@ -1,73 +1,10 @@
-HTML contiene varios elementos para definir texto con un significado especial.
-Ejemplo
-
-Este texto esta en negrita
-
-Este texto está en cursiva.
-
-Esto es subíndice y superíndice
-Elementos de formato HTML
-
-Los elementos de formato fueron diseñados para mostrar tipos especiales de texto:
-
-    b - Texto en negrita
-    fuerte - Texto importante
-    i - Texto en cursiva
-    em - Texto enfatizado
-    marca - Texto marcado
-    pequeño - Texto pequeño
-    del - Texto eliminado
-    ins - Texto insertado
-    sub - Texto del subíndice
-    sup - Texto en superíndice
-
-HTML by elementos fuertes
-
-El elemento HTML b define texto en negrita, sin ninguna importancia adicional.
-Ejemplo
-bEste texto está en negrita / b
-
-El elemento fuerte HTML define texto fuerte, con una importancia semántica 'fuerte' añadida.
-Ejemplo
-fuerte Este texto es fuerte / fuerte
-Elementos HTML i y em
-
-El elemento HTML i define texto en cursiva, sin ninguna importancia adicional.
-Ejemplo
-Este texto está en cursiva / i
-
-El elemento HTML em define texto enfatizado, con una importancia semántica adicional.
-Ejemplo
-emEste texto está enfatizado / em
-
-Nota: Los navegadores se muestran fuertes como b, y em como i. Sin embargo, hay una diferencia en el significado de estas etiquetas: byi define texto en negrita y cursiva, pero strong y em significa que el texto es 'importante'.
-Elemento pequeño HTML
-
-El elemento pequeño HTML define texto más pequeño:
-Ejemplo
-h2HTML smallSmall / small Formatting / h2
-Elemento de marca HTML
-
-El elemento de marca HTML define texto marcado / resaltado:
-Ejemplo
-h2HTML markMarked / mark Formatting / h2
-HTML del Element
-
-El elemento HTML del define el texto eliminado / eliminado.
-Ejemplo
-pMi color favorito es delblue / del red./p
-Elemento HTML ins
-
-El elemento HTML ins define el texto insertado / agregado.
-Ejemplo
-pMi inscolor / ins favorito es rojo./p
-Subelemento HTML
-
-El subelemento HTML define el texto suscrito.
-Ejemplo
-pEste es un subsubcripto / subtexto./p
-Elemento sup HTML
-
-El elemento sup HTML define texto superíndice.
-Ejemplo
-pEsto es un texto superpuesto / sup./p
+<b> 
+<strong> 
+<i>
+<em> 
+<mark>
+<small> 
+<del> 
+<ins> 
+<sub> 
+<sup> 
