@@ -1,0 +1,66 @@
+In this chapter we will go through the <q>, <blockquote>, <abbr>, <address>, <cite>, and <bdo> HTML elements.
+
+HTML q para citas cortas
+
+El elemento HTML q define una cita corta.
+
+Los navegadores generalmente insertan comillas alrededor del elemento q.
+Ejemplo
+El objetivo de pWWF es: qCrear un futuro donde las personas vivan en armonía con la naturaleza./q/p
+HTML blockquote para citas
+
+El elemento HTML blockquote define una sección que se cita de otra fuente.
+
+Los navegadores usualmente sangran elementos blockquote.
+Ejemplo
+pHere es una cita del sitio web de WWF: / p
+blockquote cite = 'http://www.worldwildlife.org/who/index.html'
+Durante 50 años, WWF ha estado protegiendo el futuro de la naturaleza.
+La organización de conservación líder del mundo,
+WWF trabaja en 100 países y cuenta con el apoyo de
+1,2 millones de miembros en los Estados Unidos y
+Cerca de 5 millones a nivel mundial.
+/ blockquote
+Abreviatura HTML para abreviaturas
+
+El elemento abbr HTML define una abreviatura o un acrónimo.
+
+Las abreviaturas de marcado pueden proporcionar información útil a los navegadores, sistemas de traducción y motores de búsqueda.
+Ejemplo
+pThe abbr title = 'Organización Mundial de la Salud' La OMS / abbr fue fundada en 1948./p
+Dirección HTML para la información de contacto
+
+El elemento de dirección HTML define la información de contacto (autor / propietario) de un documento o artículo.
+
+El elemento de dirección generalmente se muestra en cursiva. La mayoría de los navegadores agregarán un salto de línea antes y después del elemento.
+Ejemplo
+habla a
+Escrito por John Doe.br
+Visítanos en: br
+Example.combr
+Box 564, Disneylandbr
+Estados Unidos
+/habla a
+HTML cita para el título del trabajo
+
+El elemento de cita HTML define el título de una obra.
+
+Los navegadores suelen mostrar elementos de citas en cursiva.
+Ejemplo
+pciteThe Scream / cite por Edvard Munch. Pintado en 1893./p
+HTML bdo para anulación bidireccional
+
+El elemento HTML bdo define la anulación bidireccional.
+
+El elemento bdo se usa para anular la dirección del texto actual:
+
+
+Estos elementos son empleados  cunado debemos dar crédito a los demás por las aportaciones en nuestro trabajo  o simplemente para citar un texto, por otro lado se usan para definir las abreviaciones que comúnmente, como por ejemplo “Por sus siglas en ingles significa ….” 
+También tenemos la anulación e inserción de texto.  
+
+https://normasapa.com/normas-apa-2019-cuestiones-mas-frecuentes/
+
+https://www.scribbr.es/detector-de-plagio/generador-apa/#/other-types
+https://normasapa.com/citas/
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
