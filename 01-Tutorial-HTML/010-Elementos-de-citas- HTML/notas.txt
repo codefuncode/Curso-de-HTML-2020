@@ -64,3 +64,10 @@ https://www.scribbr.es/detector-de-plagio/generador-apa/#/other-types
 https://normasapa.com/citas/
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+
+Referencias 
+
+MDN Web Docs. (s. f.). Recuperado 8 de mayo de 2020, de https://developer.mozilla.org/es/
+
+W3Schools Online Web Tutorials. (s. f.). Recuperado 8 de mayo de 2020, de https://www.w3schools.com/default.asp

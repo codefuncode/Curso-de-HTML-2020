@@ -1,0 +1,55 @@
+/* Se selecciona  con un selector 
+descendiente para dar estilo a  las listas 
+que están dentro de un ul y que a su ves 
+están dentro de una case { navegacion }*/
+
+/*====================================================*/
+
+.navegacion ul li {
+    /*
+   
+    float: left; 
+        Esta sirva para flotar los elementos  y si valor 
+        indica  para que lado flotara 
+   
+    padding: 5px 20px;
+        Esta crea un margen al contenido 
+        seleccionado 
+   
+    margin-top: 10px;
+        SSirve para aplicar margenes al contenido  
+        seleccionado 
+    
+    list-style-type: none;
+        Esta propiedad otorga  o retira estilos de 
+        las listas  en nuestro caso retiramos las 
+        viñetas de las listas  pies las usaremos de menú 
+    */
+    float: left;
+    padding: 5px 20px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+/*====================================================*/
+
+li a {
+    color: white;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+}
+.aperte {
+    /* Este clear both se usa para evitar que se 
+    mezclen los elementos con los flotantes  esta 
+    propiedades no permite tener elementos flotantes 
+     por ninguno de sus lados */
+    clear: both;
+    padding-top: 25px;
+}
+.cuerpo {
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid blue;
+}

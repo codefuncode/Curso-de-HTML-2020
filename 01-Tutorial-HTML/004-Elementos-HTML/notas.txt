@@ -101,3 +101,11 @@ HTML tags are not case sensitive: <P> means the same as <p>.
 The HTML standard does not require lowercase tags, but W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.
 
 At W3Schools we always use lowercase tags.
+
+
+
+Referencias 
+
+MDN Web Docs. (s. f.). Recuperado 8 de mayo de 2020, de https://developer.mozilla.org/es/
+
+W3Schools Online Web Tutorials. (s. f.). Recuperado 8 de mayo de 2020, de https://www.w3schools.com/default.asp

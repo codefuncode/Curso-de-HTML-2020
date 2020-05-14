@@ -32,3 +32,10 @@ Nota: Para los elementos de entrada, el atributo alt solo se puede usar con inpu
 
 Sugerencia: Para crear una información sobre herramientas para una imagen, use el atributo title.ope
 ================================================================
+
+
+Referencias 
+
+MDN Web Docs. (s. f.). Recuperado 8 de mayo de 2020, de https://developer.mozilla.org/es/
+
+W3Schools Online Web Tutorials. (s. f.). Recuperado 8 de mayo de 2020, de https://www.w3schools.com/default.asp

@@ -36,3 +36,10 @@ Resumen del capítulo
     Use font-family para fuentes de texto
     Usar tamaño de fuente para tamaños de texto
     Usar alineación de texto para alineación de texto
+
+    
+Referencias 
+
+MDN Web Docs. (s. f.). Recuperado 8 de mayo de 2020, de https://developer.mozilla.org/es/
+
+W3Schools Online Web Tutorials. (s. f.). Recuperado 8 de mayo de 2020, de https://www.w3schools.com/default.asp

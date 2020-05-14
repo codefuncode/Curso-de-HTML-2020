@@ -13,7 +13,19 @@ Progreso
 	008-Estilos-HTML
 	009-Formato-de-texto-HTML
 	010-Elementos-de-citas- HTML
+	011-Comentarios-HTML
 
 
 Nota de seguimiento
 	Incorporar los texto de los documentos .odt en el archivo notas.txt  creado como hijo inmediato de cada directorio. Con el fin de facilitar el acceso al material dado  y ser transparente en cuanto a los textos usados. Las referencias están al principio en el archivo readme.md  y considero redundante su aplicación 
+
+
+
+
+Enlaces de referencias. 
+
+
+Universidad Politécnica de Madrid. (s. f.). Recuperado 14 de mayo de 2020, de https://www.upm.es/+
+
+
+Documentacin de cdigo. (s. f.). Recuperado 14 de mayo de 2020, de https://www.dit.upm.es/%7Epepe/doc/adsw/base/doc/doc.htm

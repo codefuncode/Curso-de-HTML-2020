@@ -40,3 +40,10 @@ El elemento pre HTML
 El elemento previo HTML define texto preformateado.
 
 El texto dentro de un elemento previo se muestra en una fuente de ancho fijo (generalmente Courier), y conserva espacios y saltos de línea:
+
+
+Referencias 
+
+MDN Web Docs. (s. f.). Recuperado 8 de mayo de 2020, de https://developer.mozilla.org/es/
+
+W3Schools Online Web Tutorials. (s. f.). Recuperado 8 de mayo de 2020, de https://www.w3schools.com/default.asp
