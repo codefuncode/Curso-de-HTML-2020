@@ -1,1 +1,20 @@
-css.css
+/**/
+
+.uno p {
+    /**/
+    border: 5px solid rgba(255, 235, 20, 1);
+}
+.dos p {
+    /**/
+    border: 5px solid #ffeb14;
+}
+.tres p {
+    /**/
+    background-color: rgba(255, 255, 10, 0.69);
+}
+.cuatro p {
+    /**/
+}
+body {
+    background-color: blue;
+}
