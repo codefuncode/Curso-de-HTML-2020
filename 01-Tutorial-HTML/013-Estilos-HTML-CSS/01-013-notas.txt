@@ -1,0 +1,101 @@
+Diseño de HTML con CSS
+
+CSS describe cómo se deben mostrar los elementos HTML en la pantalla, papel u otros medios.
+
+CSS se puede agregar a elementos HTML de 3 maneras:
+
+En línea: mediante el uso del atributo de estilo en elementos HTML
+Interno: mediante el uso de un elemento de estilo en la sección del encabezado
+Externo: mediante el uso de un archivo CSS externo
+
+La forma más común de agregar CSS es mantener los estilos en archivos CSS separados. Sin embargo, aquí usaremos un estilo interno y en línea, porque es más fácil de demostrar y es más fácil para usted probarlo usted mismo.
+
+Consejo: Puedes aprender mucho más sobre CSS en nuestro Tutorial de CSS.
+CSS en línea
+
+Se utiliza un CSS en línea para aplicar un estilo único a un único elemento HTML.
+
+Un CSS en línea utiliza el atributo de estilo de un elemento HTML.
+
+Este ejemplo establece el color del texto del elemento h1 en azul:
+
+CSS interno
+
+Se utiliza un CSS interno para definir un estilo para una sola página HTML.
+
+Un CSS interno se define en la sección de encabezado de una página HTML, dentro de un elemento de estilo:
+
+CSS externo
+
+Se utiliza una hoja de estilo externa para definir el estilo de muchas páginas HTML.
+
+Con una hoja de estilo externa, puede cambiar el aspecto de un sitio web completo, ¡cambiando un archivo!
+
+Para usar una hoja de estilo externa, agregue un enlace en la sección de encabezado de la página HTML:
+
+Se puede escribir una hoja de estilo externa en cualquier editor de texto. El archivo no debe contener ningún código HTML y debe guardarse con una extensión .css.
+
+Así es como se ve 'styles.css':
+
+Fuentes CSS
+
+La propiedad de color CSS define el color del texto que se utilizará.
+
+La propiedad de familia de fuentes CSS define la fuente que se utilizará.
+
+La propiedad de tamaño de fuente CSS define el tamaño del texto que se utilizará.
+
+Borde CSS
+
+La propiedad de borde CSS define un borde alrededor de un elemento HTML:
+
+Relleno CSS
+
+La propiedad de relleno CSS define un relleno (espacio) entre el texto y el borde:
+
+Margen CSS
+
+La propiedad de margen CSS define un margen (espacio) fuera del borde:
+
+El atributo id
+
+Para definir un estilo específico para un elemento especial, agregue un atributo de identificación al elemento:
+
+El atributo de clase
+
+Para definir un estilo para tipos especiales de elementos, agregue un atributo de clase al elemento:
+
+Referencias externas
+
+Se puede hacer referencia a las hojas de estilo externas con una URL completa o con una ruta relativa a la página web actual.
+
+Este ejemplo utiliza una URL completa para vincular a una hoja de estilo:
+
+Resumen del capítulo
+
+Use el atributo style HTML para el estilo en línea
+Use el elemento de estilo HTML para definir CSS interno
+Use el elemento de enlace HTML para referirse a un archivo CSS externo
+Use el elemento de encabezado HTML para almacenar elementos de estilo y enlace
+Use la propiedad de color CSS para colores de texto
+Utilice la propiedad de familia de fuentes CSS para fuentes de texto
+Use la propiedad de tamaño de fuente CSS para tamaños de texto
+Use la propiedad de borde CSS para bordes
+Use la propiedad de relleno CSS para el espacio dentro del borde
+Use la propiedad de margen CSS para el espacio fuera del borde
+
+
+Elnaces 
+
+Fot family
+https://www.tutorialbrain.com/css_tutorial/css_font_family_list/
+
+Border
+https://www.formget.com/css-border-property/
+
+
+Padding
+https://developer.mozilla.org/en-US/docs/Web/CSS/padding
+
+marging 
+https://www.techonthenet.com/css/properties/margin.php

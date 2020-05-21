@@ -1,0 +1,10 @@
+.uno {
+    border: 2px solid green;
+    margin: 50px 100px;
+    height: 500px;
+}
+.dos {
+    width: 50%;
+    height: 30px;
+    margin: 50px auto;
+}

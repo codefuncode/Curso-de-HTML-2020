@@ -23,6 +23,9 @@ Módulos completados
 	- 008-Estilos-HTML
 	- 009-Formato-de-texto-HTML
 	- 010-Elementos-de-citas- HTML
+	- 011-Comentarios-HTML
+	- 012-Colores-HTML
+	- 013-Estilos-HTML-CSS
 
 ---
 

@@ -1,0 +1,74 @@
+* {
+    border-style: none;
+    border-style: solid;
+    border-style: double;
+    border-style: dotted;
+    border-style: dashed;
+    border-style: groove;
+    border-style: inset;
+    border-style: outset;
+    border-style: ridge;
+    border-style: hidden;
+}
+p.multiple {
+    border-top-style: solid;
+    border-left-style: dotted;
+    border-bottom-style: dashed;
+    border-right-style: double;
+    padding: 5px;
+    width: 350px;
+}
+* {
+    border-width: thin;
+    border-width: thick;
+    border-width: medium;
+}
+p.multiple {
+    border-style: solid;
+    border-left-width: 10px;
+    border-top-width: 20px;
+    border-right-width: 30px;
+    border-bottom-width: 40px;
+    width: 400px;
+}
+p.one {
+    border-style: solid;
+    border-color: red;
+    border-width: 10px;
+}
+p.two {
+    border-style: solid;
+    border-color: #98bf21;
+    border-width: 10px;
+}
+p.three {
+    border-style: solid;
+    border-color: rgb(252, 217, 197);
+    border-width: 10px;
+}
+p {
+    border-style: solid;
+    border-width: 20px;
+    border-top-color: red;
+    border-right-color: green;
+    border-bottom-color: blue;
+    border-left-color: yellow;
+    padding: 10px;
+    /* Leave a gap between the content and the borders. */
+    width: 100px;
+    /*narrower the box width*/
+}
+* {
+    /* style */
+    border: solid;
+    /* width | style */
+    border: 2px dotted;
+    /* style | color */
+    border: outset #f33;
+    /* width | style | color */
+    border: medium dashed green;
+    /* Global values */
+    border: inherit;
+    border: initial;
+    border: unset;
+}
