@@ -1,0 +1,19 @@
+a: El elemento de anclaje
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+
+
+https://html.spec.whatwg.org/multipage/browsers.html#valid-browsing-context-name-or-keyword
+
+Chapter Summary
+
+    Use the <a> element to define a link
+    Use the href attribute to define the link address
+    Use the target attribute to define where to open the linked document
+    Use the <img> element (inside <a>) to use an image as a link
+
+    Chapter Summary
+
+    Use the id attribute (id="value") to define bookmarks in a page
+    Use the href attribute (href="#value") to link to the bookmark
+
