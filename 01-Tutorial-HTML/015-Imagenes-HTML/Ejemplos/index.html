@@ -7,33 +7,48 @@
     </title>
     <style type="text/css">
       #cordenadas{
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 379px;
         background-color: red;
+        margin: 0px;
+        padding: 0px;
+      }
+      body{
+        margin: 0px;
+        padding: 0px;
       }
     </style>
   </head>
   <body>
-
     <div id="cordenadas">
     </div>
-    <h2>
-      Floating Images
-    </h2>
-    <p>
-      <strong>
-        Float the image to the right:
-      </strong>
+    <p id="display">
     </p>
+
+
+
+
+    <img alt="Workplace" src="img/workplace.jpg" usemap="#workmap"/>
+
+
+
+
+    <map name="workmap">
+      <area alt="Computer" coords="34,44,270,350" href="https://duckduckgo.com/?q=Computadoras+&t=canonical&iar=images&iax=images&ia=images" shape="rect" target="_blank">
+      </area>
+      <area alt="Phone" coords="290,172,333,250" href="https://duckduckgo.com/?q=celulares&t=canonical&ia=images&iax=images" shape="rect" target="_blank">
+      </area>
+      <area alt="Coffee" coords="337,300,44" onclick="myFunction();" shape="circle">
+      </area>
+    </map>
     <p>
-
-
-    <script>
-      function myFunction() {
+      <script>
+        function myFunction() {
     alert("You clicked the coffee cup!");
     }
-    </script>
-    <script src="js/js.js" type="text/javascript">
-    </script>
+      </script>
+      <script src="js/js.js" type="text/javascript">
+      </script>
+    </p>
   </body>
 </html>

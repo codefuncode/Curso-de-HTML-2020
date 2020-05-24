@@ -1,0 +1,18 @@
+Chapter Summary
+
+    Use the HTML <img> element to define an image
+    Use the HTML src attribute to define the URL of the image
+    Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed
+    Use the HTML width and height attributes to define the size of the image
+    Use the CSS width and height properties to define the size of the image (alternatively)
+    Use the CSS float property to let the image float
+
+
+Resumen del capítulo
+
+    Use el elemento HTML img para definir una imagen
+    Utilice el atributo HTML src para definir la URL de la imagen.
+    Use el atributo alt HTML para definir un texto alternativo para una imagen, si no se puede mostrar
+    Use los atributos HTML de ancho y alto para definir el tamaño de la imagen
+    Utilice las propiedades de ancho y alto de CSS para definir el tamaño de la imagen (alternativamente)
+    Use la propiedad flotante CSS para dejar que la imagen flote

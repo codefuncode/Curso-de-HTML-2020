@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <style type="text/css">
+      #cordenadas{
+        width: 500px;
+        height: 500px;
+        /*background-color: red;*/
+        background-image: url('../img/workplace.jpg');
+        background-repeat: no-repeat;
+      }
+      body{
+        margin:0px;
+        padding:0px;
+
+      }
+    </style>
+    <title>
+      Document
+    </title>
+  </head>
+  <body>
+   <img alt="Workplace" src="../img/workplace.jpg" usemap="#workmap"/>
+    <map name="workmap">
+      <area alt="Computer" coords="34,44,270,350" href="https://duckduckgo.com/?q=Computadoras+&t=canonical&iar=images&iax=images&ia=images" shape="rect" target="_blank">
+      </area>
+      <area alt="Phone" coords="290,172,333,250" href="https://duckduckgo.com/?q=celulares&t=canonical&ia=images&iax=images" shape="rect" target="_blank">
+      </area>
+      <area alt="Coffee" coords="337,300,44" onclick="myFunction();" shape="circle">
+      </area>
+    </map>
+    <h1 id="display">
+    </h1>
+    <div id="cordenadas">
+    </div>
+    <script type="text/javascript">
+      var div = document.getElementById('cordenadas');
+      var display= document.getElementById('display');
+
+      div.onclick = function(argument) {
+      showCoords(argument);
+      }
+
+      function showCoords(evt) {
+        display.innerHTML="eje X value: " + evt.clientX + "<br/> eje y value: " + evt.clientY + "\n";
+
+      }
+    </script>
+       <script>
+        function myFunction() {
+    alert("You clicked the coffee cup!");
+    }
+      </script>
+    <!--
+coords
+    Un conjunto de valores que especifican las coordenadas de la región de punto caliente. El número y el significado de los valores dependen del valor especificado para el atributo de forma. Rect o rectángulo: el valor de las coordenadas es dos pares x, y: izquierda, arriba, derecha, abajo. círculo: el valor es x, y, r donde x, y es un par que especifica el centro del círculo y r es un valor para el radio.  poli o polígono: el valor es un conjunto de pares x, y para cada punto del polígono: x1, y1, x2, y2, x3, y3, etc.
+    En HTML4, los valores son números de píxeles o porcentajes, si se agrega un signo de porcentaje (%); en HTML5, los valores son números de píxeles CSS.
+     -->
+  </body>
+</html>

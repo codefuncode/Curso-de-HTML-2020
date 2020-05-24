@@ -1,0 +1,41 @@
+div {
+    background-image: url('img_girl.jpg');
+}
+body {
+    background-image: url('img_girl.jpg');
+}
+body {
+    background-image: url('example_img_girl.jpg');
+}
+body {
+    background-image: url('example_img_girl.jpg');
+    background-repeat: no-repeat;
+}
+body {
+    background-image: url('img_girl.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body {
+    background-image: url('img_girl.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.fixed-bg {
+    background-image: url("img_tree.gif");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*background-attachment: scroll|fixed|local|initial|inherit;
+scroll 
+La imagen de fondo se desplazará con la página. Esto es por defecto
+fixed 
+La imagen de fondo no se desplazará con la página
+local
+ La imagen de fondo se desplazará con el contenido del elemento.
+*/

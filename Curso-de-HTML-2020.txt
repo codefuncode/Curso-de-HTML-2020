@@ -2,21 +2,22 @@
 
 Progreso-
 
-01-Tutorial-HTML
-	001-Introduccion-HTML
-	002-Editores-HTML
-	003-HTML-basico
-	004-Elementos-HTML
-	005-Atributos-HTML
-	006-Encabezados-HTML
-	007-Parrafos-HTML
-	008-Estilos-HTML
-	009-Formato-de-texto-HTML
-	010-Elementos-de-citas--HTML
-	011-Comentarios-HTML
-	012-Colores-HTML
-	013-Estilos-HTML-CSS
-	014-Enlaces-HTML
+* 01-Tutorial-HTML
+	* 001-Introduccion-HTML
+	* 002-Editores-HTML
+	* 003-HTML-basico
+	* 004-Elementos-HTML
+	* 005-Atributos-HTML
+	* 006-Encabezados-HTML
+	* 007-Parrafos-HTML
+	* 008-Estilos-HTML
+	* 009-Formato-de-texto-HTML
+	* 010-Elementos-de-citas--HTML
+	* 011-Comentarios-HTML
+	* 012-Colores-HTML
+	* 013-Estilos-HTML-CSS
+	* 014-Enlaces-HTML
+	* 015-Imagenes-HTML
 
 
 Nota-de-seguimiento

@@ -1,11 +1,10 @@
     var div = document.getElementById('cordenadas');
+    var display = document.getElementById('display');
     div.onclick = function(argument) {
         showCoords(argument);
     }
 
     function showCoords(evt) {
-        alert(
-            "clientX value: " + evt.clientX + "\n" +
-            "clientY value: " + evt.clientY + "\n"
-        );
+        display.innerHTML = "Eje Y value: " + evt.clientY + "<br/>" + "Eje X value: " + evt.clientX;
+
     }

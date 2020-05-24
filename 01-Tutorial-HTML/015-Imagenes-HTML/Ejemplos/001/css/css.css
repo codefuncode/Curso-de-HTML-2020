@@ -1,0 +1,43 @@
+/*.div3 img {
+    width: 100%;
+}*/
+
+.div1, .div2, .div3, .div4, .div5 {
+    border: 5px solid black;
+    /*  margin: 50px;
+    padding: 50px;*/
+}
+/*.div4 img {
+    width: 50%;
+}
+.div4 {
+    width: 70%;
+}
+.div5 img {
+    width: 500px;
+    border: 5px solid orange;
+    padding: 50px;
+}
+.div6 {
+    padding: 50px;
+}
+body {
+    margin-bottom: 500px;
+}*/
+
+.div2 {
+    width: 500px;
+    height: 600px;
+}
+/*=========================================*/
+
+.img2 {
+    float: right;
+    width: 42px;
+    height: 42px;
+}
+.img1 {
+    float: left;
+    width: 42px;
+    height: 42px;
+}

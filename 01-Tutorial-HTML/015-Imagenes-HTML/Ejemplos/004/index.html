@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>
+      Document
+    </title>
+  </head>
+  <body>
+    <!-- El navegador usará el primer formato de imagen que reconoce: -->
+    <picture>
+      <source media="(min-width: 650px)" srcset="../img/giphy.gif">
+      </source>
+      <source media="(min-width: 465px)" srcset="img_car.jpg">
+      </source>
+      <img src="../img/giphy.gif"/>
+    </picture>
+    <picture>
+      <source srcset="../img/giphy.gif">
+      </source>
+      <source srcset="../img/giphy.gif">
+      </source>
+      <img alt="Beatles" src="../img/giphy.gif" style="width:auto;"/>
+    </picture>
+  </body>
+</html>
