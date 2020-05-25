@@ -7,7 +7,7 @@
         width: 500px;
         height: 500px;
         /*background-color: red;*/
-        background-image: url('../img/workplace.jpg');
+        background-image: url('../img/corazones.jpeg');
         background-repeat: no-repeat;
       }
       body{
@@ -21,7 +21,7 @@
     </title>
   </head>
   <body>
-   <img alt="Workplace" src="../img/workplace.jpg" usemap="#workmap"/>
+    <!--  <img alt="Workplace" src="../img/workplace.jpg" usemap="#workmap"/>
     <map name="workmap">
       <area alt="Computer" coords="34,44,270,350" href="https://duckduckgo.com/?q=Computadoras+&t=canonical&iar=images&iax=images&ia=images" shape="rect" target="_blank">
       </area>
@@ -29,11 +29,21 @@
       </area>
       <area alt="Coffee" coords="337,300,44" onclick="myFunction();" shape="circle">
       </area>
+    </map> -->
+    <!-- ====================================================================== -->
+    <img alt="Workplace" src="../img/corazones.jpeg" usemap="#workmap"/>
+    <map name="workmap">
+      <area alt="Corazon" coords="219,65,50" onclick="myFunction3();" shape="circle">
+      </area>
+      <area alt="Corazon" coords="84,168,50" onclick="myFunction();" shape="circle">
+      </area>
+      <area alt="Corazon azul" coords="383,149,50" onclick="myFunction2();" shape="circle">
+      </area>
     </map>
-    <h1 id="display">
-    </h1>
-    <div id="cordenadas">
+    <!--    <div id="cordenadas">
     </div>
+    <p id="display">
+    </p> -->
     <script type="text/javascript">
       var div = document.getElementById('cordenadas');
       var display= document.getElementById('display');
@@ -43,15 +53,24 @@
       }
 
       function showCoords(evt) {
+
         display.innerHTML="eje X value: " + evt.clientX + "<br/> eje y value: " + evt.clientY + "\n";
 
       }
     </script>
-       <script>
-        function myFunction() {
-    alert("You clicked the coffee cup!");
-    }
-      </script>
+    <script>
+      function myFunction() {
+      alert("Corazon rosa");
+      }
+
+      function myFunction2() {
+      alert("Corazon azul");
+      }   
+
+      function myFunction3() {
+      alert("Corazon pulpura");
+      }
+    </script>
     <!--
 coords
     Un conjunto de valores que especifican las coordenadas de la región de punto caliente. El número y el significado de los valores dependen del valor especificado para el atributo de forma. Rect o rectángulo: el valor de las coordenadas es dos pares x, y: izquierda, arriba, derecha, abajo. círculo: el valor es x, y, r donde x, y es un par que especifica el centro del círculo y r es un valor para el radio.  poli o polígono: el valor es un conjunto de pares x, y para cada punto del polígono: x1, y1, x2, y2, x3, y3, etc.
