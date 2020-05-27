@@ -1,0 +1,92 @@
+.ejemplos {
+    border-collapse: collapse;
+    border-collapse: separate;
+    /*===============================*/
+    /*Border top*/
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+    /*Aplica a los cuatro lados */
+    border-top-width: 10em;
+    border-top-width: 3vmax;
+    border-top-width: 6px;
+    border-top-width: thin;
+    border-top-width: medium;
+    border-top-width: thick;
+    /*=================================*/
+    /*==================================*/
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    /*Aplica a los cuatro lados */
+    border-top-style: none;
+    border-top-style: hidden;
+    border-top-style: dotted;
+    border-top-style: dashed;
+    border-top-style: solid;
+    border-top-style: double;
+    border-top-style: groove;
+    border-top-style: ridge;
+    border-top-style: inset;
+    border-top-style: outset;
+    /*=====================================*/
+    /*=====================================*/
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    /* Aplica a los cuatro lados */
+    /*=====================================*/
+    border-top-color: red;
+    border-top-color: rgb(255, 128, 0);
+    border-top-color: hsla(100%, 50%, 25%, 0.75);
+    border-top-color: #ffbb00;
+    border-top-color: currentColor;
+    border-top-color: transparent;
+    /*=====================================*/
+    /*=====================================*/
+    border-spacing: 2px;
+    border-spacing: 1cm 2em;
+    border-spacing: inherit;
+    border-spacing: initial;
+    border-spacing: unset;
+    /*======================================*/
+    border: 1px;
+    border: 2px dotted;
+    border: medium dashed green;
+}
+.example {
+    border-bottom: value;
+    border-bottom-color: value;
+    border-bottom-left-radius: value;
+    border-bottom-right-radius: value;
+    border-bottom-style: value;
+    border-bottom-width: value;
+    border-color: value;
+    border-image: value;
+    border-image-outset: value;
+    border-image-repeat: value;
+    border-image-slice: value;
+    border-image-source: value;
+    border-image-width: value;
+    border-left: value;
+    border-left-color: value;
+    border-left-style: value;
+    border-left-width: value;
+    border-radius: value;
+    border-right: value;
+    border-right-color: value;
+    border-right-style: value;
+    border-right-width: value;
+    border-style: value;
+    border-top: value;
+    border-top-color: value;
+    border-top-left-radius: value;
+    border-top-right-radius: value;
+    border-top-style: value;
+    border-top-width: value;
+    border-width: value;
+    box-shadow: value;
+}

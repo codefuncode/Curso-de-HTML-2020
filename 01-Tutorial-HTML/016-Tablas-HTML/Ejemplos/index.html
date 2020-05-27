@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <style type="text/css">
+      div{
+        margin: 50px;
+        border: 10px solid black;
+        padding: 50px;
+      }
+      table{
+        border-collapse: collapse;
+
+      }
+    table, th, td {
+      border: 5px solid black;
+       border-top-color: red;
+
+       padding: 15px;
+    }
+    .uno table{
+      border-collapse: separate;
+      background-image: url('../../015-Imagenes-HTML/Ejemplos/img/giphy.gif');
+      border-top-color: blue;
+    border-spacing: 30px 1rem;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-size: cover;
+    }
+      .uno table , .uno th, .uno td {
+      border: 5px solid black;
+       border-top-color: blue;
+        border-right-color: yellow;
+      border-bottom-color: green;
+      border-left-color: red;
+
+       padding: 15px;
+    }
+    .aira div{
+      border:none;
+    } 
+     .aira div div{
+        margin: 0px;
+        border: 1px solid black;
+        padding: 0px;
+    }
+    </style>
+    <title>
+      Documento
+    </title>
+  </head>
+  <body>
+    <div class="uno">
+      <table>
+        <tr>
+          <th>
+            Elemento
+          </th>
+          <th>
+            Elemento
+          </th>
+          <th>
+            Elemento
+          </th>
+        </tr>
+        <tr>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="dos">
+      <table style="width:100%">
+        <tr>
+          <th>
+            Elemento
+          </th>
+          <th colspan="2">
+            Elemento
+          </th>
+        </tr>
+        <tr>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="tres">
+      <table style="width:100%">
+        <tr>
+          <th>
+            Elemento
+          </th>
+          <td>
+            Elemento
+          </td>
+        </tr>
+        <tr>
+          <th rowspan="2">
+            Elemento
+          </th>
+          <td>
+            Elemento
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Elemento
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="cuatro">
+      <table style="width:100%">
+        <caption>
+          Elemento
+        </caption>
+        <tr>
+          <th>
+            Elemento
+          </th>
+          <th>
+            Elemento
+          </th>
+        </tr>
+        <tr>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="cinco">
+      <p>
+        Elemento
+      </p>
+      <table>
+        <tr>
+          <th>
+            Elemento
+          </th>
+          <th>
+            Elemento
+          </th>
+        </tr>
+        <tr>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="">
+      <p>
+        Elemento
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Elemento
+            </th>
+            <th>
+              Elemento
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Elemento
+            </td>
+            <td>
+              Elemento
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>
+              Elemento
+            </td>
+            <td>
+              Elemento
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="">
+      <p>
+        Elemento
+      </p>
+      <table>
+        <colgroup span="4">
+        </colgroup>
+        <tr>
+          <th>
+            Elemento
+          </th>
+          <th>
+            Elemento
+          </th>
+          <th>
+            Elemento
+          </th>
+          <th>
+            Elemento
+          </th>
+        </tr>
+        <tr>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="">
+      <p>
+        Elemento
+      </p>
+      <table>
+        <colgroup>
+          <col style="background-color: #0f0">
+          </col>
+          <col span="2">
+          </col>
+        </colgroup>
+        <tr>
+          <th>
+            Elemento
+          </th>
+          <th>
+            Elemento
+          </th>
+          <th>
+            Elemento
+          </th>
+        </tr>
+        <tr>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+          <td>
+            Elemento
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="">
+      <p>
+        Elemento
+      </p>
+      <table>
+        <caption>
+          Elemento
+        </caption>
+        <tr>
+          <td>
+            Elemento
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="">
+      <table>
+        <caption>
+          Elemento
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">
+              Elemento
+            </th>
+            <th scope="col">
+              Elemento
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              Elemento
+            </th>
+            <td>
+              Elemento
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              Elemento
+            </th>
+            <td>
+              Elemento
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="">
+      <table>
+        <caption>
+          Elemento caption
+        </caption>
+        <thead>
+          <tr>
+            <th>
+              Elemento
+            </th>
+            <th scope="col">
+              Elemento
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              Elemento
+            </th>
+            <td>
+              Elemento
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              Elemento
+            </th>
+            <td>
+              Elemento
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="">
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Elemento
+            </th>
+            <th scope="col">
+              Elemento
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              Elemento
+            </th>
+            <td>
+              Elemento
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              Elemento
+            </th>
+            <td>
+              Elemento
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row">
+              Elemento
+            </th>
+            <td>
+              Elemento
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="aira">
+      <div aria-describedby="semantic_elements_table_desc" aria-label="Semantic Elements" aria-rowcount="81" role="table">
+        <div id="semantic_elements_table_desc">
+          Semantic Elements to use instead of ARIA's roles
+        </div>
+        <div role="rowgroup">
+          <div role="row">
+            <span aria-sort="none" role="columnheader">
+              ARIA Role
+            </span>
+            <span aria-sort="none" role="columnheader">
+              Semantic Element
+            </span>
+          </div>
+        </div>
+        <div role="rowgroup">
+          <div aria-rowindex="11" role="row">
+            <span role="cell">
+              header
+            </span>
+            <span role="cell">
+              h1
+            </span>
+          </div>
+          <div aria-rowindex="16" role="row">
+            <span role="cell">
+              header
+            </span>
+            <span role="cell">
+              h6
+            </span>
+          </div>
+          <div aria-rowindex="18" role="row">
+            <span role="cell">
+              rowgroup
+            </span>
+            <span role="cell">
+              thead
+            </span>
+          </div>
+          <div aria-rowindex="24" role="row">
+            <span role="cell">
+              term
+            </span>
+            <span role="cell">
+              dt
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <table>
+        <tr>
+          <th id="name">
+            Name
+          </th>
+          <th id="email">
+            Email
+          </th>
+          <th id="phone">
+            Phone
+          </th>
+          <th id="addr">
+            Address
+          </th>
+        </tr>
+        <tr>
+          <td headers="name">
+            John Doe
+          </td>
+          <td headers="email">
+            someone@example.com
+          </td>
+          <td headers="phone">
+            +45342323
+          </td>
+          <td headers="addr">
+            Rosevn 56,4300 Sandnes,Norway
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="">
+      <table>
+        <colgroup>
+          <col span="2" style="background-color:red">
+            <col style="background-color:yellow">
+            </col>
+          </col>
+        </colgroup>
+        <tr>
+          <th>
+            ISBN
+          </th>
+          <th>
+            Title
+          </th>
+          <th>
+            Price
+          </th>
+        </tr>
+        <tr>
+          <td>
+            3476896
+          </td>
+          <td>
+            My first HTML
+          </td>
+          <td>
+            $53
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="">
+      <table>
+        <tr>
+          <th>
+            Month
+          </th>
+          <th>
+            Savings
+          </th>
+          <th>
+            Savings for holiday!
+          </th>
+        </tr>
+        <tr>
+          <td>
+            January
+          </td>
+          <td>
+            $100
+          </td>
+          <td rowspan="2">
+            $50
+          </td>
+        </tr>
+        <tr>
+          <td>
+            February
+          </td>
+          <td>
+            $80
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="">
+      <table>
+        <tr>
+          <th>
+            Month
+          </th>
+          <th>
+            Savings
+          </th>
+        </tr>
+        <tr>
+          <td>
+            January
+          </td>
+          <td>
+            $100
+          </td>
+        </tr>
+        <tr>
+          <td>
+            February
+          </td>
+          <td>
+            $100
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            Sum: $180
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

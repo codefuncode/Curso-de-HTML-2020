@@ -1,0 +1,38 @@
+    div {
+        margin: 50px;
+        border: 10px solid black;
+        padding: 50px;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    table, th, td {
+        border: 5px solid black;
+        border-top-color: red;
+        /*padding: 15px;*/
+    }
+    .uno table {
+        /*border-collapse: separate;*/
+        background-image: url('../../../015-Imagenes-HTML/Ejemplos/img/giphy.gif');
+        border-top-color: blue;
+        border-spacing: 30px 1rem;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-size: cover;
+    }
+    .uno table, .uno th, .uno td {
+        border: 5px solid black;
+        border-top-color: blue;
+        border-right-color: yellow;
+        border-bottom-color: green;
+        border-left-color: red;
+        /*padding: 15px;*/
+    }
+    .aira div {
+        border: none;
+    }
+    .aira div div {
+        margin: 0px;
+        border: 1px solid black;
+        padding: 0px;
+    }

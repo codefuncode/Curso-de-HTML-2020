@@ -1,1 +1,17 @@
 Anotaciones para el directorio 01-Tutorial-HTML
+
+
+URL
+
+http://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml
+
+https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI
+
+https://en.wikipedia.org/wiki/List_of_URI_schemes
+
+https://sspai.com/post/31500
+https://sspai.com/post/31500
+
+https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml#uri-schemes-1

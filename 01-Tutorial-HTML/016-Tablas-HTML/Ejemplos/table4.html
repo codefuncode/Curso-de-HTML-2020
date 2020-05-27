@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>
+      Document
+    </title>
+    <style type="text/css">
+      div {
+		margin: 50px;
+		border: 10px solid red;
+		padding: 50px;
+		}
+		table {
+		border-collapse: collapse;
+
+		}
+		table, th, td {
+		border: 2px solid black;
+		padding: 20px;
+
+		}
+    </style>
+  </head>
+  <body>
+    <div class="">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2" scope="col">
+              Elemento
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              Elemento
+            </th>
+            <td>
+              Elemento
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              Elemento
+            </th>
+            <td>
+              Elemento
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="2" scope="row">
+              Elemento
+            </th>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="">
+      <table>
+        <colgroup>
+          <col span="2" style="background-color:red">
+          </col>
+          <col style="background-color:yellow">
+          </col>
+        </colgroup>
+        <tr>
+          <th>
+            ISBN
+          </th>
+          <th>
+            Title
+          </th>
+          <th>
+            Price
+          </th>
+        </tr>
+        <tr>
+          <td>
+            3476896
+          </td>
+          <td>
+            My first HTML
+          </td>
+          <td>
+            $53
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="">
+      <table>
+        <tr>
+          <th>
+            Month
+          </th>
+          <th>
+            Savings
+          </th>
+          <th>
+            Savings for holiday!
+          </th>
+        </tr>
+        <tr>
+          <td>
+            January
+          </td>
+          <td>
+            $100
+          </td>
+          <td rowspan="2">
+            $50
+          </td>
+        </tr>
+        <tr>
+          <td>
+            February
+          </td>
+          <td>
+            $80
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="">
+      <table>
+        <tr>
+          <th>
+            Month
+          </th>
+          <th>
+            Savings
+          </th>
+        </tr>
+        <tr>
+          <td>
+            January
+          </td>
+          <td>
+            $100
+          </td>
+        </tr>
+        <tr>
+          <td>
+            February
+          </td>
+          <td>
+            $100
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            Sum: $180
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
