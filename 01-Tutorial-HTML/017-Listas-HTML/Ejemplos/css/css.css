@@ -21,11 +21,40 @@
           list-style-type: none;
       }
       .dos ol {
-          list-style-type: none;
-      }
-      .tres ul {
           list-style-type: type="I";
+          /* list-style-type: none;*/
+          /*list-style-position: outside;*/
+          /*list-style-position: inside;*/
       }
+      /*================================*/
+
+      .tres ul {
+          /*list-style-type: circle;*/
+          /*list-style-type: disc;*/
+          /*list-style-type: square;*/
+          /*list-style-type: armenian;*/
+          /*list-style-type: cjk-ideographic;*/
+          /*list-style-type: decimal;*/
+          /*list-style-type: decimal-leading-zero;*/
+          /*list-style-type: georgian;*/
+          /*list-style-type: hebrew;*/
+          /*list-style-type: hiragana;*/
+          /*list-style-type: hiragana-iroha;*/
+          /*list-style-type: katakana;*/
+          /*list-style-type: katakana-iroha;*/
+          /*list-style-type: lower-alpha;*/
+          /*list-style-type: lower-greek;*/
+          /*list-style-type: lower-latin;*/
+          /*list-style-type: lower-roman;*/
+          /*list-style-type: upper-alpha;*/
+          /*list-style-type: upper-greek;*/
+          /*list-style-type: upper-latin;*/
+          /*list-style-type: upper-roman;*/
+          /*list-style-type: none;*/
+          /*list-style-type: inherit;*/
+      }
+      /*================================*/
+
       .items li {
           margin-left: 38px;
           padding-top: 5px;
@@ -35,7 +64,7 @@
           float: left;
           width: 40%;
           border: 2px solid black;
-          margin: 35px;
+          margin: 20px;
           height: 300px;
       }
       body {
@@ -44,15 +73,20 @@
       h1 {
           text-align: center;
       }
-      ul i {
+      .uno ul i {
           float: left;
       }
       ol i {
-          float: left;
+          /*float: left;*/
       }
-      h2:after {
-          content: '\30DE\30A4\30CA\30B9';
-      }
+      /*   .dos ol li:before {
+          content: '\0212C';
+      }*/
+
       body {
           padding: 100px;
+      }
+      ul, ol, dl {
+          /*width: 30%;*/
+          margin: 40px;
       }
