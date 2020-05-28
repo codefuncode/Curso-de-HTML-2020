@@ -1,0 +1,9 @@
+https://astronautweb.co/snippet/font-awesome/
+
+https://drafts.csswg.org/css-counter-styles-3/#the-counter-style-rule
+
+https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references
+
+https://home.unicode.org/
+
+https://www.w3.org/2003/entities/2007doc/

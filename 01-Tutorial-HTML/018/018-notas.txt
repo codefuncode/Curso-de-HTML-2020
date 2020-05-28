@@ -1,0 +1,505 @@
+https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements
+https://developer.mozilla.org/es/docs/Web/Guide/HTML/categorias_de_contenido
+
+En esta página
+
+Categorías de contenido principal
+Modelo de contenido transparente
+Otros modelos de contenido
+Related topics
+
+Cada elemento HTML debe cumplir con las reglas que definen qué tipo de contenido puede contener. Estas reglas se agrupan en modelos de contenido comunes a varios elementos. Cada elemento HTML pertenece a cero, uno o varios modelos de contenido. Un modelo establece las reglas  que el contenido del elemento debe cumplir en un documento HTML-conformant.
+
+Éstos son los tres tipos de categorías de contenido:
+
+Categorías de contenido principal, son las que describen las reglas comunes de contenido compartidas por muchos elementos;
+Categorías de contenido relacionas al fomulario, son las que describen las reglas comunes a los elementos relacionados a un formulario;
+Categorías de contenido específico, son las que describen categorías poco comunes compartida solo por unos pocos elementos, algunas veces solo para un contexto específico.
+
+El diagrama de Venn expuesto sobre estas líneas es una herramienta eficaz para comprender con un vistazo las categorías de contenido que admite cierto elemento. Por ejemplo, en el gráfico se aprecia que cualquier categoría lo es también de flujo, con excepción de ciertos casos de metadatos, que son sólo metadatos, sin participar en el flujo de presentación. Es la parte del óvalo que queda por fuera.
+Rápidamente también, nos damos cuenta de que existen ciertos contenidos que pueden ser a la vez interactivos, embebidos y textuales.  Pueden surgir preguntas, como el porqué de que un contenido heading (de título) no lo sea también textual ( phrasing), sobre todo si se tiene en cuenta que la mayoría de las veces lo único que contiene es precisamente eso, un texto. La respuesta pasa por saber que un texto plano es contenido de categoría textual, y contenido de tipo textual es el único tipo de contenido permitido en el heading. Es aconsejable observar  un rato el diagrama antes de seguir leyendo.
+Categorías de contenido principal
+Contenido Metadata
+
+Los elementos pertenecientes a la categoría contenido metadata modifican la presentación o el comportamiento del resto del documento, establece vínculos a otros documentos, o se comunica con otra información fuera de rango
+
+Los elementos pertenecientes a esta categoría son <base>, <command>, <link>, <meta>, <noscript>, <script>, <style> and <title>.
+Contenido dinámico
+
+Los elementos pertenecientes a la categoría de contenido dinámico normalmente contienen texto o contenido embebido.
+
+Nota: El flujo HTML es la manera natural en la que el agente-usuario ( navegador Web ) va presentando al usuario los elementos uno a uno, ocupando éstos su lugar. La mayoría de elementos representan objetos tangibles cuyo contenido  ha de ser representado. El hecho de que sea un flujo, hace pensar en una retahíla, un fluir de elementos, consumiendo progresivamente los recursos, en función de la naturaleza del medio en el que se expresan; espacio en una pantalla, tiempo en una exposición oral , combinación de ambos, etc. No todos los elementos en HTML participan el el flujo HTML.
+
+Estos son: <a>, <abbr>, <address>, <article>, <aside>, <audio>, <b>,<bdo>, <bdi>, <blockquote>, <br>, <button>, <canvas>, <cite>, <code>, <command>, <data>, <datalist>, <del>, <details>, <dfn>, <div>, <dl>, <em>, <embed>, <fieldset>, <figure>, <footer>, <form>, <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <header>, <hgroup>, <hr>, <i>, <iframe>, <img>, <input>, <ins>, <kbd>, <keygen>, <label>, <main>, <map>, <mark>, <math>, <menu>, <meter>, <nav>, <noscript>, <object>, <ol>, <output>, <p>, <pre>, <progress>, <q>, <ruby>, <s>, <samp>, <script>, <section>, <select>, <small>, <span>, <strong>, <sub>, <sup>, <svg>, <table>, <template>, <textarea>, <time>, <ul>, <var>, <video>, <wbr> y Texto.
+
+Hay otros pocos elementos pertenecientes a esta categoría, pero solo si se cumple una condición especifica:
+
+<area>, si es descendiente de un  elemento <map>;
+<link>,  si el atributo itemprop está presente;
+<meta>, si el atributo itemprop está presente;
+<style>, si el atributo scoped está presente.
+
+Contenido de seccionamiento
+
+Los elementos pertenecientes al modelo de contenido seccionado crean una sección en el esquema actual que define el alcance de los elementos <header>, los elementos <footer>, y  contenido de cabecera.
+
+Los elementos pertenecientes a esta categoría son <article>, <aside>, <nav> and <section>. 
+
+Nota: No confunda este modelo de contenido con la categoría sección raíz, por que aisla el contenido del contorno regulado.
+Contenido de título
+
+El contenido de título, también llamado de cabecera o de encabezado, define el título de una sección ( o subtítulo, si se encuentra subordinado dentro de un elemento  <hgroup>). La sección puede haber sido marcada explícitamente por un elemento de contenido de seccionamiento o definido implícitamente por la etiqueta de cabecera según las reglas del algoritmo de esquematizado del documento.
+
+Los elemento pertenecientes a esta categoría son <h1>, <h2>, <h3>, <h4>, <h5>, <h6> and <hgroup>.
+
+Nota: Aunque es problable que contenga algún contenido de título, el <header> no es contenido de título en sí mismo.
+Contenido textual o estático
+
+Este contenido define el texto y puede sugerir directrices o semántica para su  representación al agente usuario. Los contenidos textuales se materializan finalmente en párrafos a ser representados.
+
+Los elementos pertenecientes a esta categoría son <abbr>, <audio>, <b>, <bdo>, <br>, <button>, <canvas>, <cite>, <code>, <command>, <datalist>, <dfn>, <em>, <embed>, <i>, <iframe>, <img>, <input>, <kbd>, <keygen>, <label>, <mark>, <math>, <meter>, <noscript>, <object>, <output>, <progress>, <q>, <ruby>, <samp>, <script>, <select>, <small>, <span>, <strong>, <sub>, <sup>, <svg>, <textarea>, <time>, <var>, <video>, <wbr> y texto plano (que no consista sólo en caracteres en blanco).
+
+Nota: Si sientes cierta confusión al ver elementos, como <video> o <audio>, dentro de esta categoría de contenido,  piensa que un elemento puede pertenecer a varias categorías, y ten en cuenta que muchos elementos, si no son soportados o si no se puede acceder al recurso, finalmente se expresan como texto. Se incluyen en esta categoría porque pueden ser tratados como texto en caso de ser necesario, aunque no sea lo normal. Sirva como aclaración el atributo alt de la etiqueta <img> o el texto entre las etiquetas <canvas>Este navegador no soporta canvas</canvas>
+
+Hay otros pocos elementos pertenecientes a esta categoría, pero solo si se cumple una condición específica:
+
+<a>, si contiene sólo contenido de texto;
+<area>, si es descendiente de un elemento <map>;
+<del>, si contiene sólo contenido de texto;
+<ins>, si contiene sólo contenido de texto;
+<link>, si el atributo itemprop está presente;
+<map>, si contiene sólo contenido de texto;
+<meta>, si el atributo itemprop está presente.
+
+Contenido tangible
+
+Un contenido es tangible, o palpable, cuando no está vacío ni escondido. Elementos cuyo contenido cae en las categorías de flujo o textuales, deben contener mínimamente un nodo palpable.
+Contenido incrustado
+
+El contenido incrustado, también llamado embebido, importa otros recursos o inserta contenido desde otro lenguaje de marcado  o espacio de nombres en el documento.
+
+Los elementos pertenecientes a esta categoría son: <audio>, <canvas>, <embed>, <iframe>, <img>, <math>, <object>, <svg>, <video>.
+Contenido interactivo
+
+El contenido interactivo incluye elementos que han sido diseñados específicamente para la interacción con el usuario. 
+
+Los elementos que pertenecen a esta categoría incluye: <a>, <button>, <details>, <embed>, <iframe>, <keygen>, <label>, <select>, and <textarea>.
+
+Hay otros pocos elementos pertenecientes a esta categoría, pero sólo si se cumple una condición específica:
+
+<audio>, si el atributo controls está presente;
+<img>, si el atributo usemap está presente
+<input>, si el atributo type no está oculto;
+<menu>, si el atributo type está en el estado barra de herramientas;
+<object>, si el atributo usemap está presente;
+<video>, si el atributo controls está presente.
+
+Contenido form-associated o asociado a un formulario
+
+El contenido de un elemento cae en la categoría  form-associated cuando el elemento está vinculado con un formulario proprietário a través del atributo form. Un formulario es propietario ya sea de los elementos contenidos de manera explícita entre sus etiquetas <form> y </form> para el elemento <form>, o los elementos cuyo id es especificado en el atributo form (pueden estar definidos fuera de las etiquetas de apertura y cierre del form).
+
+<button>
+<fieldset>
+<input>
+<keygen>
+<label>
+<meter>
+<object>
+<output>
+<progress>
+<select>
+<textarea>
+
+Esta categoría tiene varias subcategorías:
+
+listed
+Los elementos que son listados en el form.elements y fieldset.elements IDL collections. Contiene <button>, <fieldset>, <input>, <keygen>, <object>, <output>, <select>, y <textarea>.
+labelable
+Los elementos que pueden ser asociados con elementos <label>. Contiene <button>, <input>, <keygen>, <meter>, <output>, <progress>, <select>, y <textarea>.
+submittable
+Los elementos que pueden ser usados para construir el conjunto de datos del formulario cuando el formulario es enviado. Contiene <button>, <input>, <keygen>, <object>, <select>, and <textarea>.
+resettable
+Los elementos que pueden ser afectados cuando un formulario es restablecido. Contiene <input>, <keygen>, <output>,<select>, y <textarea>.
+
+Modelo de contenido transparente
+
+Si un elemento tiene modelo de contenido transparente, entonces su contenido debe ser estructurado de tal forma que sea valido en HTML5, incluso si el elemento trasparente fuera quitado y reemplazado por los elementos hijos.
+
+Por ejemplo, los elementos <del> y <ins> son transparentes:
+
+<p>We hold these truths to be <del><em>sacred &amp; undeniable</em></del> <ins>self-evident</ins>.</p>
+
+Si esos elementos fueran quitados, este fragmento aún podría ser HTML válido (Si el Inglés es correcto).
+
+<p>We hold these truths to be <em>sacred &amp; undeniable</em> self-evident.</p>
+
+Otros modelos de contenido
+
+Seccionamiento de origen.
+Metadata
+
+
+Los elementos, en HTML (lenguaje de marcas de hipertexto - Hypertext Markup Language) usualmente son elementos "en bloque" o elementos "en línea". Un elemento en bloque ocupa todo el espacio de su elemento padre (contenedor), creando así un "bloque". Este artículo ayuda a explicar lo que esto significa.
+
+Los navegadores suelen mostrar el elemento a nivel de bloque con un salto de línea antes y después del elemento. El siguiente ejemplo demuestra la influencia elementos en bloque:
+Ejemplo en bloque
+HTML
+
+<p>Este párrafo es un elemento en bloque; este fondo se ha coloreado para mostrar elemento principal (o padre) del párrafo.</p>
+
+CSS
+
+p { background-color: #8ABB55; }
+
+Uso
+
+Los elementos de bloque sólo deben aparecer dentro del elemento <body>.
+
+Elmentos en bloque vs. en línea
+
+Hay un par de diferencias clave entre los elementos en bloque y elementos en línea:
+
+Formateo
+De forma predeterminada, los elementos de bloque comienzan en una nueva línea, pero los elementos en línea pueden comenzar en cualquier parte de una línea.
+Modelo de contenido
+En general, los elementos en bloque pueden contener elementos en línea y otros elementos en bloque. Inherente a esta distinción estructural es la idea de que los elementos en bloque crean estructuras "más grandes" que los elementos en línea.
+
+La distinción entre elementos en bloque frente a elementos en línea se utiliza en las especificaciones de HTML hasta la 4.01. En HTML5, esta distinción dual se sustituye por un conjunto más complejo de categorías de contenido. La categoría "en bloque" corresponde aproximadamente a la categoría de contenido dinámico en HTML 5, mientras que "en línea" se corresponde con contenido estático, pero hay categorías adicionales.
+Elementos
+
+La siguiente es una lista completa de todos los elementos en bloque de HTML (aunque "en bloque" no se define técnicamente para los elementos que son nuevos en HTML5).
+
+<address>
+Información de contacto.
+<article> HTML5
+Contenido de Articulo.
+<aside> HTML5
+Contenido adicional.
+<audio> HTML5
+Reproductor de audio
+<blockquote>
+Bloque de "cita".
+<canvas> HTML5
+Dibujo canvas.
+<dd>
+Descripción de definición.
+<div>
+División de documento.
+<dl>
+Lista de definición.
+<fieldset>
+Etiqueta de conjunto de campos.
+
+<figcaption> HTML5
+Leyenda de figura.
+<figure> HTML5
+Grupos contenido multimedia con una leyenda (ver <figcaption>).
+<footer> HTML5
+Sección o pie de página.
+<form>
+Formulario de entrada.
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+Niveles de cabecera 1-6.
+<header> HTML5
+Sección o cabecera de página.
+<hgroup> HTML5
+Grupos información de encabezado.
+<hr>
+Regla Horizontal (línea divisoria).
+<li>
+Elemento de lista.
+<main>
+Engloba el único contenido central del documento.
+<nav>
+Contiene enlaces de navegación.
+
+<noscript>
+Contenido para ser usado si los scripts no son soportados o permitidos.
+<ol>
+Lista ordenada.
+<output> HTML5
+Formulario de salida.
+<p>
+Párrafo.
+<pre>
+Texto preformateado.
+<section> HTML5
+Sección de una página web.
+<table>
+Tabla.
+<tfoot>
+Pie de tabla.
+<ul>
+Lista no ordenada.
+<video> HTML5
+Reproductor de vídeo.
+
+
+
+List of "inline" elements
+
+The following elements are inline by default (although block and inline elements are no longer defined in HTML 5, use content categories instead):
+
+<a>
+<abbr>
+<acronym>
+<audio> (if it has visible controls)
+<b>
+<bdi>
+<bdo>
+<big>
+<br>
+<button>
+<canvas>
+<cite>
+<code>
+<data>
+<datalist>
+<del>
+<dfn>
+<em>
+<embed>
+<i>
+<iframe>
+<img>
+<input>
+<ins>
+<kbd>
+<label>
+<map>
+<mark>
+<meter>
+<noscript>
+<object>
+<output>
+<picture>
+<progress>
+<q>
+<ruby>
+<s>
+<samp>
+<script>
+<select>
+<slot>
+<small>
+<span>
+<strong>
+<sub>
+<sup>
+<svg>
+<template>
+<textarea>
+<time>
+<u>
+<tt>
+<var>
+<video>
+<wbr>
+
+====================================================================================================================
+
+Raíz principal
+Element 	Description
+<html> 	
+Metadatos del documento
+
+Los metadatos contienen información sobre la página. Esto incluye información sobre estilos, scripts y datos que ayudan al software (search engines, browsers, etc.) a usar y generar la página. Los metadatos de estilos y scripts pueden estar definidos en la página o estar enlazados a otro fichero que contiene la información.
+Element 	Description
+<base> 	
+<head> 	
+<link> 	
+<meta> 	
+<style> 	
+<title> 	
+Seccionamiento básico
+Element 	Description
+<body> 	
+Seccionamiento del contenido
+
+Los elementos de seccionamiento del contenido te permiten organizar los contenidos del documento en partes lógicas. Usa los elementos de seccionado para crear una descripción amplia de los contenidos de tu página, incluyendo el encabezado y pie de página y elementos para identificar secciones.
+Element 	Description
+<address> 	
+<article> 	
+<aside> 	
+<footer> 	
+<header> 	
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6> 	
+<hgroup> 	
+<main> 	
+<nav> 	
+<section> 	
+Contenido del texto
+
+Utiliza los elementos HTML de contenido del texto para organizar bloques o secciones de contenido colocados entre los tags de apertura<body> y cierre. Es importante para la accessibility y el SEO, que estos elementos se identifiquen con el objetivo o la estructura de ese contenido.
+Element 	Description
+<blockquote> 	
+<dd> 	
+<dir> 	
+<div> 	
+<dl> 	
+<dt> 	
+<figcaption> 	
+<figure> 	
+<hr> 	
+<li> 	
+<main> 	
+<ol> 	
+<p> 	
+<pre> 	
+<ul> 	
+Semántica del texto en línea
+
+Utilice la semántica del texto en línea HTML para definir el significado, estructura, o el estilo de una palabra, una línea o cualquier pieza arbitraria de texto.
+Element 	Description
+<a> 	
+<abbr> 	
+<b> 	
+<bdi> 	
+<bdo> 	
+<br> 	
+<cite> 	
+<code> 	
+<data> 	
+<dfn> 	
+<em> 	
+<i> 	
+<kbd> 	
+<mark> 	
+<q> 	
+<rb> 	
+<rp> 	
+<rt> 	
+<rtc> 	
+<ruby> 	
+<s> 	
+<samp> 	
+<small> 	
+<span> 	
+<strong> 	
+<sub> 	
+<sup> 	
+<time> 	
+<tt> 	
+<u> 	
+<var> 	
+<wbr> 	
+Imágen y multimedia
+
+HTML soporta varios recursos multimedia como imágenes, audio, y video.
+Element 	Description
+<area> 	
+<audio> 	
+<img> 	
+<map> 	
+<track> 	
+<video> 	
+Contenido embebido
+
+Además de los contenidos multimedia habituales, HTML puede incluir otra variedad de contenidos, aunque no siempre es fácil de interactuar con ellos.
+Element 	Description
+<applet> 	
+<embed> 	
+<iframe> 	
+<noembed> 	
+<object> 	
+<param> 	
+<picture> 	
+<source> 	
+Scripting
+
+Con el fin de crear contenido dinámico y aplicaciones Web, HTML soporta el uso de lenguajes de scripting, el más prominente es JavaScript. Ciertos elementos soportan esta capacidad.
+Element 	Description
+<canvas> 	
+<noscript> 	
+<script> 	
+Ediciones demarcadas
+
+Estos elementos permiten proporcionar indicios de que determinadas partes del texto han sido alteradas.
+Element 	Description
+<del> 	
+<ins> 	
+Tablas de contenido
+
+Estos elementos son usados para crear y manejar datos tabulados.
+Element 	Description
+<caption> 	
+<col> 	
+<colgroup> 	
+<table> 	
+<tbody> 	
+<td> 	
+<tfoot> 	
+<th> 	
+<thead> 	
+<tr> 	
+Formularios
+
+HTML provee un número de elementos que pueden usarse conjuntamente para crear formularios los cuales el usuario puede completar y enviar al sitio Web o a una aplicación. Hay una gran cantidad de información acerca de ésto disponible en la HTML forms guide.
+Element 	Description
+<button> 	
+<datalist> 	
+<fieldset> 	
+<form> 	
+<input> 	
+<label> 	
+<legend> 	
+<meter> 	
+<optgroup> 	
+<option> 	
+<output> 	
+<progress> 	
+<select> 	
+<textarea> 	
+Elementos Interactivos
+
+HTML ofrece una selección de elementos que pueden ayudar a crear objetos de interfaz de usuario interactivos.
+Element 	Description
+<details> 	
+<dialog> 	
+<menu> 	
+<menuitem> 	
+<summary> 	
+Componentes Web
+
+Los Componentes Web son una tecnología relacionada con HTML que hacen que sea posible, en esencia, crear y personalizar elementos como si fueran HTML normal. Además, pueden crear versiones personalizadas de los elementos HTML estándar.
+Element 	Description
+<content> 	
+<element> 	
+<shadow> 	
+<slot> 	
+<template> 	
+Elementos obsoletos y en desuso
+
+Advertencia: Estos son elementos HTML viejos los cuales están obsoletos y no deben usarse. Nunca debería usarlos en un nuevo proyecto y debería reemplazarlos en proyectos viejos tan pronto como sea posible. Se listan aquí solo con propósitos informativos.
+Element 	Description
+<acronym> 	
+<applet> 	
+<basefont> 	
+<bgsound> 	
+<big> 	
+<blink> 	
+<center> 	
+<command> 	
+<content> 	
+<dir> 	
+<element> 	
+<font> 	
+<frame> 	
+<frameset> 	
+<image> 	
+<isindex> 	
+<keygen> 	
+<listing> 	
+<marquee> 	
+<menuitem> 	
+<multicol> 	
+<nextid> 	
+<nobr> 	
+<noembed> 	
+<noframes> 	
+<plaintext> 	
+<shadow> 	
+<spacer> 	
+<strike> 	
+<tt> 	
+<xmp>

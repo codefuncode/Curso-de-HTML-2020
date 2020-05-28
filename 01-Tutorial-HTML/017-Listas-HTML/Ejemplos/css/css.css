@@ -1,0 +1,58 @@
+      /*@counter-style circled-alpha {
+  system: fixed;
+  symbols:  Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ;
+  symbols:  Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ;
+
+  suffix: " ";
+}*/
+
+      /*@counter-style nombreDefinido {
+    system: fixed;
+    symbols: url(img/ColourfulSpiral.svg) url(img/ColourfulSpiral.svg) url(img/ColourfulSpiral.svg) ;
+    suffix: " ";
+}*/
+
+      @counter-style go {
+          system: alphabetic;
+          symbols: url(ColourfulSpiral.svg) url(ColourfulSpiral.svg);
+          suffix: " ";
+      }
+      .items {
+          list-style-type: none;
+      }
+      .dos ol {
+          list-style-type: none;
+      }
+      .tres ul {
+          list-style-type: type="I";
+      }
+      .items li {
+          margin-left: 38px;
+          padding-top: 5px;
+          margin-bottom: 10px;
+      }
+      div {
+          float: left;
+          width: 40%;
+          border: 2px solid black;
+          margin: 35px;
+          height: 300px;
+      }
+      body {
+          margin: auto;
+      }
+      h1 {
+          text-align: center;
+      }
+      ul i {
+          float: left;
+      }
+      ol i {
+          float: left;
+      }
+      h2:after {
+          content: '\30DE\30A4\30CA\30B9';
+      }
+      body {
+          padding: 100px;
+      }
