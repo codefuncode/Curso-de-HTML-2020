@@ -1,6 +1,15 @@
 Anotaciones para el directorio 01-Tutorial-HTML
 
 
+===========================================================
+Nota :
+Debo explicar lo que me falto del modulo 16 tablas colspan y rowapan usando thead ,tbody y tfoot
+===========================================================
+
+
+
+
+=============================================================
 URL
 
 http://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml
@@ -15,3 +24,4 @@ https://sspai.com/post/31500
 https://sspai.com/post/31500
 
 https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml#uri-schemes-1
+=============================================================
