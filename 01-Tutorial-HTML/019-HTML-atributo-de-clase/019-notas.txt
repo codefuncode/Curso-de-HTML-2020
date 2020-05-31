@@ -1,0 +1,13 @@
+Requerimientos 
+
+1 Menú  arriba y a los lados  atiba para computadoras  y a la derecha para móviles 
+
+2 Formulario de contacto 
+
+3 listado de artículos  que la persona pueda verlos  de tres formas como el ordenador  por carpetas lista detallada e iconos grandes 
+
+4 inicio de sección para identificar el cliente o usuario si es posible que inicie con Faceboook es mas facil para le usuario 
+
+5 Unas mariposas volaran en la cabecera de la pagina de un lado a otro  
+
+6 El usuario podrá cambiar los colores de todo su perfil  y se guardaran en la base de datos para fijar su interfaz de usuario. 

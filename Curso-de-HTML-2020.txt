@@ -19,6 +19,9 @@ Progreso-
 	* 014-Enlaces-HTML
 	* 015-Imagenes-HTML
 	* 016-Tablas-HTML
+	* 017-Listas-HTML
+	* 018-Elementos-en-Bloque-y-en-línea-HTML
+	* 019-HTML-atributo-de-clase
 
 
 Nota-de-seguimiento

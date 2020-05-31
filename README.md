@@ -27,6 +27,11 @@ Módulos completados
 	- 012-Colores-HTML
 	- 013-Estilos-HTML-CSS
 	- 014-Enlaces-HTML
+	- 015-Imagenes-HTML
+	- 016-Tablas-HTML
+	- 017-Listas-HTML
+	- 018-Elementos-en-Bloque-y-en-línea-HTML
+	- 019-HTML-atributo-de-clase
 
 ---
 
