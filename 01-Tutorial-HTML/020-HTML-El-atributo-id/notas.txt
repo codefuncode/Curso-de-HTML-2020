@@ -1,0 +1,11 @@
+W3School
+https://www.w3schools.com/html/html_id.asp
+Usando el atributo id
+El atributo id es utilizado por CSS o JavaScript para realizar ciertas tareas para el elemento con el valor de id específico.
+En CSS, para seleccionar un elemento con una identificación específica, escriba un carácter hash (#), seguido de la identificación del elemento:
+
+MDN
+https://developer.mozilla.org/es/docs/Web/HTML/Atributos_Globales/id
+Soportado en todos los elementos a excepción de <base>, <head>, <html>, <meta>, <script>, <style>, y <title>.
+
+Snapshot de HTML Living Standard, ahora acepta '_', '-' and '.' si no se encuentra al principio del id. También es un atributo global verdadero.
