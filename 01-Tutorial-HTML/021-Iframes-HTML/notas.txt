@@ -1,0 +1,9 @@
+Definición y uso
+
+La etiqueta iframe especifica un marco en línea.
+
+Se usa un marco en línea para incrustar otro documento dentro del documento HTML actual.
+
+Consejo: use CSS para diseñar el iframe (vea el ejemplo a continuación).
+
+Sugerencia: es una buena práctica incluir siempre un atributo de título para el iframe. Los lectores de pantalla lo usan para leer cuál es el contenido del iframe.
