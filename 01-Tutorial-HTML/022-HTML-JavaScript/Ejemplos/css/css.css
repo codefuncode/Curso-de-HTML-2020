@@ -1,0 +1,18 @@
+#error {
+    color: red;
+    font-weight: bold;
+    font-size: 1.5em;
+    border: 5px solid red;
+    padding: 25px;
+}
+.error {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+.error p {
+    padding: 30px;
+}

@@ -1,0 +1,13 @@
+notas.txt
+
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML
+
+https://www.tutorialrepublic.com/html-tutorial/html-head.php
+
+https://www.techonthenet.com/html/elements/head_tag.php
+
+https://www.w3.org/MarkUp/html3/dochead.html
+
+https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started
+
+https://ogp.me/
