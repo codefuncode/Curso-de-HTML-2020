@@ -1,9 +1,9 @@
-Anotaciones para el directorio 01-Tutorial-HTML
+
 
 
 ===========================================================
 Nota :
-Debo explicar lo que me falto del modulo 16 tablas colspan y rowapan usando thead ,tbody y tfoot
+Crear video del modulo 01-023
 ===========================================================
 
 
@@ -29,6 +29,3 @@ https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml#uri-schemes-1
 
 =============================================================
 
-Status de Progreso 
-
-023
