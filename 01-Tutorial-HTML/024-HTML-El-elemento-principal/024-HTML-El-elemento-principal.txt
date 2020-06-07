@@ -7,3 +7,18 @@ notas.txt
 xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' 
 
 xmlns:expr='http://www.google.com/2005/gml/expr'>
+
+==================================================================
+
+
+
+El elemento <head>  de  HTML es un contenedor para todos los elementos de encabezado: <title>, <style>, <meta>, <link>, 
+<script>, y <base>.
+
+El encabezado de un documento HTML es la parte que no se muestra en el navegador web cuando se carga la página. Contiene información como el título de la página, enlaces a CSS (si elige diseñar su contenido HTML con CSS), enlaces a favicons personalizados y otros metadatos (datos sobre el HTML, como el autor, y palabras clave importantes que describen documento.) En este artículo cubriremos todo lo anterior y más, para darle una buena base para trabajar con el marcado.
+
+https://www.w3.org/2005/10/howto-favicon
+
+<link rel="icon" 
+      type="image/png" 
+      href="/somewhere/myicon.png" />
