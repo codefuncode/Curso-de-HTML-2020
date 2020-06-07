@@ -22,3 +22,36 @@ https://www.w3.org/2005/10/howto-favicon
 <link rel="icon" 
       type="image/png" 
       href="/somewhere/myicon.png" />
+
+
+================================================================================================================================================
+https://developers.google.com/search/reference/robots_meta_tag
+
+https://support.google.com/webmasters/answer/7451184
+
+https://developers.google.com/search/docs/guides/get-started
+
+
+Una táctica de SEO se considera Black Hat o Spamdexing si tiene las siguientes características:
+
+Intentar mejoras en el ranking que los motores de búsqueda desaprueben y / o impliquen engaño.
+
+Redirigir a los usuarios de una página creada para motores de búsqueda a una más amigable para los humanos.
+
+Redireccionar usuarios a una página que era diferente de la página que clasificó el motor de búsqueda.
+
+Sirviendo una versión de una página para motores de búsqueda / robots y otra versión para visitantes humanos. Esto se llama táctica de encubrimiento SEO.
+
+Usar texto oculto o invisible o con el color de fondo de la página, usar un tamaño de fuente pequeño u ocultarlos dentro del código HTML, como las secciones 'sin marco'.
+
+Repetir palabras clave en las metaetiquetas y usar palabras clave que no están relacionadas con el contenido del sitio web. Esto se llama relleno de metatag.
+
+Ubicación calculada de palabras clave dentro de una página para aumentar el recuento de palabras clave, la variedad y la densidad de la página. Esto se llama relleno de palabras clave.
+
+Creación de páginas web de baja calidad que contienen muy poco contenido, pero en cambio están llenas de palabras clave y frases muy similares. Estas páginas se denominan páginas de entrada o puerta de enlace.
+
+Duplique los sitios web al alojar múltiples sitios web, todos con contenido conceptual similar pero utilizando diferentes URL.
+
+Crear una copia no autorizada de un sitio web popular que muestre contenidos similares al original a un rastreador web, pero redirige a los internautas a sitios web no relacionados o maliciosos Esto se llama secuestro de página.
+
+Manténgase siempre alejado de cualquiera de las tácticas de Black Hat anteriores para mejorar el rango de su sitio. Los motores de búsqueda son lo suficientemente inteligentes como para identificar todas las propiedades anteriores de su sitio y, en última instancia, no obtendrá nada.
