@@ -1,4 +1,15 @@
 notas.txt
+=============================================================================================
+Referencias 
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML
+
+https://developers.google.com/search/reference/robots_meta_tag
+
+https://support.google.com/webmasters/answer/7451184
+
+https://developers.google.com/search/docs/guides/get-started
+
+=============================================================================================
 
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
@@ -8,7 +19,7 @@ xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/200
 
 xmlns:expr='http://www.google.com/2005/gml/expr'>
 
-==================================================================
+=============================================================================================
 
 
 
@@ -24,12 +35,8 @@ https://www.w3.org/2005/10/howto-favicon
       href="/somewhere/myicon.png" />
 
 
-================================================================================================================================================
-https://developers.google.com/search/reference/robots_meta_tag
+==========================================================================================
 
-https://support.google.com/webmasters/answer/7451184
-
-https://developers.google.com/search/docs/guides/get-started
 
 
 Una táctica de SEO se considera Black Hat o Spamdexing si tiene las siguientes características:
