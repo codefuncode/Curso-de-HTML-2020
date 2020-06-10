@@ -1,15 +1,136 @@
-notas.txt
+Notas
 =============================================================================================
 Referencias 
+============
+
+What’s in the head? Metadata in HTML
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML
 
+Especificaciones de la metaetiqueta "robots" y los elementos "data-nosnippet" y "X-Robots-Tag"
 https://developers.google.com/search/reference/robots_meta_tag
 
+Guía de optimización en buscadores (SEO) para principiantes
 https://support.google.com/webmasters/answer/7451184
 
+Introducción a la Búsqueda de Google: guía para desarrolladores
 https://developers.google.com/search/docs/guides/get-started
 
+For the following attributes, the permitted values and their interpretation are profile dependent:
+https://www.w3.org/TR/REC-html40/struct/global.html#adef-name-META
+
+7.4.4 Meta data
+https://www.w3.org/TR/1998/REC-html40-19980424/struct/global.html#meta-data
+
+Browser detection using the user agent
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Browser_detection_using_the_user_agent
+
+Informative references \
+https://www.w3.org/TR/1998/REC-html40-19980424/references.html#ref-PICS
+
+Viewport
+https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
+
 =============================================================================================
+
+Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===================================================================================================
+MDN
+meta
+
+El meta representa metadatos que no pueden ser representados por otros elementos meta-relacionados con HTML, como base, enlace, script, estilo o título.
+Categorías de contenido Contenido de metadatos. Si el atributo itemprop está presente: contenido de flujo, contenido de fraseo.
+Contenido permitido Ninguno, es un elemento vacío.
+Omisión de etiqueta Como es un elemento vacío, la etiqueta de inicio debe estar presente y la etiqueta de finalización no debe estar presente.
+Padres permitidos meta charset, meta http-equiv: un elemento principal. Si http-equiv no es una declaración de codificación, también puede estar dentro de un elemento noscript, dentro de un elemento head.
+Roles ARIA permitidos Ninguno
+Interfaz DOM HTMLMetaElement
+Atributos
+
+Este elemento incluye los atributos globales.
+
+Nota: el nombre del atributo global tiene un significado específico para el metaelemento, y el atributo itemprop no debe establecerse en el mismo metaelemento que tenga cualquier nombre existente, http-equiv o atributos charset.
+
+juego de caracteres
+Este atributo declara la codificación de caracteres de la página. Debe contener un nombre estándar IANA MIME para codificaciones de caracteres. Aunque el estándar no solicita una codificación específica, sugiere:
+
+Se alienta a los autores a usar UTF-8.
+Los autores no deben usar codificaciones incompatibles con ASCII para evitar riesgos de seguridad: los navegadores que no los admiten pueden interpretar contenido dañino como HTML. Esto sucede con JIS_C6226-1983, JIS_X0212-1990, HZ-GB-2312, JOHAB, la familia ISO-2022 y la familia EBCDIC.
+
+Nota: Las codificaciones incompatibles con ASCII son aquellas que no asignan los puntos de código de 8 bits 0x20 a 0x7E a los puntos de código Unicode 0x0020 a 0x007E)
+Los autores no deben usar CESU-8, UTF-7, BOCU-1 y / o SCSU ya que se han demostrado ataques de secuencias de comandos en sitios cruzados con estas codificaciones.
+Los autores no deben usar UTF-32 porque no todos los algoritmos de codificación HTML5 pueden distinguirlo de UTF-16.
+
+Notas:
+
+La codificación de caracteres declarada debe coincidir con la que se guardó la página para evitar caracteres confusos y agujeros de seguridad.
+El metaelemento que declara la codificación debe estar dentro del elemento principal y dentro de los primeros 1024 bytes del HTML, ya que algunos navegadores solo miran esos bytes antes de elegir una codificación.
+Este metaelemento es solo una parte del algoritmo para determinar el conjunto de caracteres de una página. El encabezado Content-Type y las marcas de orden de bytes anulan este elemento.
+Se recomienda encarecidamente definir la codificación de caracteres. Si la codificación de una página no está definida, son posibles las técnicas de script cruzado, como la técnica de script cruzado alternativo UTF-7.
+El metaelemento con un atributo charset es sinónimo del meta pre-HTML5 http-equiv = 'Content-Type' content = 'text / html; charset = IANAcharset', donde IANAcharset contiene el valor del atributo charset equivalente. Esta sintaxis todavía está permitida, aunque ya no se recomienda.
+
+contenido
+Este atributo contiene el valor del atributo http-equiv o nombre, según el que se utilice.
+http-equiv
+Define una directiva pragma. El atributo se denomina http-equiv (alent) porque todos los valores permitidos son nombres de encabezados HTTP particulares:
+
+'lenguaje de contenido'
+Define el idioma predeterminado de la página. Puede ser anulado por el atributo lang en cualquier elemento.
+
+Advertencia: no utilice este valor, ya que es obsoleto. Prefiere el atributo lang en el elemento html.
+'política de seguridad de contenido'
+Permite a los autores de la página definir una política de contenido para la página actual. Las políticas de contenido en su mayoría especifican los orígenes de servidor permitidos y los puntos finales de script que ayudan a protegerse contra ataques de scripts entre sitios.
+'tipo de contenido'
+Define el tipo MIME del documento, seguido de su codificación de caracteres. Sigue la misma sintaxis que el campo de encabezado de entidad de tipo de contenido HTTP, pero como está dentro de una página HTML, la mayoría de los valores que no sean text / html son imposibles. Por lo tanto, la sintaxis válida para su contenido es la cadena 'text / html' seguida de un conjunto de caracteres con la siguiente sintaxis: '; charset = IANAcharset ', donde IANAcharset es el nombre MIME preferido para un conjunto de caracteres como lo define la IANA.
+
+Advertencia: no utilice este valor, ya que es obsoleto. Use el atributo charset en el meta elemento.
+
+Nota: Como el meta no puede cambiar los tipos de documentos en XHTML o la serialización XHTML de HTML5, nunca establezca el tipo MIME en un tipo MIME XHTML con meta.
+'actualizar'
+Esta instrucción especifica:
+El número de segundos hasta que la página debe volver a cargarse, solo si el atributo de contenido contiene un entero positivo.
+El número de segundos hasta que la página debe redirigirse a otra, solo si el atributo de contenido contiene un entero positivo seguido de la cadena '; url =' y una URL válida.
+'set-cookie'
+Define una cookie para la página. Su contenido debe seguir la sintaxis definida en la especificación de cookies HTTP IETF.
+
+Advertencia: no utilice esta instrucción, ya que es obsoleta. Utilice el encabezado HTTP Set-Cookie en su lugar.
+
+nombre
+
+Este atributo define el nombre de
+
+
+
+
+
+
+
+
+
+===============================================================================================
 
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
@@ -31,8 +152,8 @@ El encabezado de un documento HTML es la parte que no se muestra en el navegador
 https://www.w3.org/2005/10/howto-favicon
 
 <link rel="icon" 
-      type="image/png" 
-      href="/somewhere/myicon.png" />
+type="image/png" 
+href="/somewhere/myicon.png" />
 
 
 ==========================================================================================

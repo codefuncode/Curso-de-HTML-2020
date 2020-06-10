@@ -4,6 +4,8 @@ Notas
 modulo 10-024 en proseso
 ==================================================================
 Ejemplos  https://codefuncode.github.io/Curso-de-HTML-2020/
+
+https://codefuncode.github.io/Curso-de-HTML-2020/01-Tutorial-HTML/024-HTML-El-elemento-principal/Ejemplos/index.html
 ==============================================================
 
 
@@ -101,4 +103,9 @@ Tutorial HTML5
 
 
 
-
+====================================================================
+Referencia 
+w3.org
+https://www.w3.org/TR/1998/REC-html40-19980424/index/list.html#b
+http://vancouver-webpages.com/
+====================================================================
