@@ -36,6 +36,8 @@ Módulos completados
 	- 021-Iframes-HTML
 	- 022-HTML-JavaScript
 	- 023-Rutas-de-archivo-HTML
+	- 024-HTML-El-elemento-principal
+	- 025-Elementos-y-tecnicas-de-diseno-HTML
 
 ---
 

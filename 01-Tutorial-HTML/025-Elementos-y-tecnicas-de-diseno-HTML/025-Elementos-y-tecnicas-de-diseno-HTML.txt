@@ -1,1 +1,17 @@
-025-Elementos-y-tecnicas-de-diseno-HTML.txt
+ 
+
+
+======================================================
+<details>
+	<summary>
+		Epcot Center
+	</summary>
+	<p>
+		Epcot is a theme park at Walt Disney World Resort 
+		featuring exciting attractions, international pavilions, 
+		award-winning fireworks and seasonal special events.
+	</p>
+</details> 
+======================================================
+
+border-box le dice al navegador que tenga en cuenta cualquier borde y relleno en los valores que especifique para el ancho y alto de un elemento. Si establece el ancho de un elemento en 100 píxeles, esos 100 píxeles incluirán cualquier borde o relleno que haya agregado, y el cuadro de contenido se reducirá para absorber ese ancho adicional. Esto normalmente hace que sea mucho más fácil dimensionar elementos.
