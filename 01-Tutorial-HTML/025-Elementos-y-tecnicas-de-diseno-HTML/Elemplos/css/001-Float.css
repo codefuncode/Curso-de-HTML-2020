@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
+    margin: 5px;
     padding: 0px;
+    border: 1px solid black;
 }
 /*Dale estilo al encabezado */
 

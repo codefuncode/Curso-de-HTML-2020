@@ -17,6 +17,11 @@ los elementos flotantes no pueden flotar.
     clear: both;
     display: table;
 }
+.row::before {
+    content: "";
+    clear: both;
+    display: table;
+}
 /*===================*/
 
 [class*="col-"] {
@@ -24,7 +29,7 @@ los elementos flotantes no pueden flotar.
 }
 /*
 Dividir 100% / 12 para calcular las rejillas  o 
- por la cantidad de columnas que necesitemos 
+por la cantidad de columnas que necesitemos 
  */
 
 .col-1 {
