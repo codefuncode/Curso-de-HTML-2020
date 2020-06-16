@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black;
+}
+.flex {
+    display: -webkit-flex;
+    display: flex;
+    /*width: 75%;*/
+}
+aside {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+article {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+#final {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+}
