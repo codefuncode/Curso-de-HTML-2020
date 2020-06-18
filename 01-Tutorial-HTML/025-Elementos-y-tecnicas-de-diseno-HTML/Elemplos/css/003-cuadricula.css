@@ -12,12 +12,7 @@ La propiedad clear especifica en qué lados de un elemento
 los elementos flotantes no pueden flotar.
 */
 
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-.row::before {
+.row::after, .row::before {
     content: "";
     clear: both;
     display: table;
