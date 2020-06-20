@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link href="../../../css/w3.css" rel="stylesheet" type="text/css"/>
+    <style>
+      body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+}
+
+/* Left column (menu) */
+.left {
+  flex: 35%;
+  padding: 15px 0;
+}
+
+.left h2 {
+  padding-left: 8px;
+}
+
+/* Right column (page content) */
+.right {
+  flex: 65%;
+  padding: 15px;
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+.busqueda h2{
+  padding: 10px;
+  text-align: center;
+}
+    </style>
+    <title>
+      Document
+    </title>
+  </head>
+  <body>
+    <div class="w3-container">
+      <h2>
+        Temario de los modulo completados
+      </h2>
+      <p>
+        haz una búsqueda rápida  para ver detalles del modulo
+      </p>
+      <div class="row">
+        <div class="busqueda" style="background-color:#bbb; width: 30%">
+          <h2>
+            Búsqueda rápida
+          </h2>
+          <input id="mySearch" onkeyup="busquedaInstantanea()" placeholder="Search.." title="Type in a category" type="text">
+            <ul id="myMenu">
+              <li>
+                <a href="#" target="_blank">
+                  001-Introducción-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  002-Editores-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  003-HTML-básico
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  004-Elementos-HTMLthon
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  005-Atributos-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  006-Encabezados-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  007-Párrafos-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  008-Estilos-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  009-Formato-de-texto-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  010-Elementos-de-citas- HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  011-Comentarios-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  012-Colores-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  013-Estilos-HTML-CSS
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  014-Enlaces-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  015-Imágenes-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  016-Tablas-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  017-Listas-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  018-Elementos-en-Bloque-y-en-línea-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  019-HTML-atributo-de-clase
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  020-HTML-El-atributo-id
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  021-Iframes-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  022-HTML-JavaScript
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  023-Rutas-de-archivo-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  024-HTML-El-elemento-principal
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  025-Elementos-y-técnicas-de-diseño-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  026-Diseño-web-sensible-HTML
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  027
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank">
+                  028-Elementos-Semánticos-HTML
+                </a>
+              </li>
+            </ul>
+          </input>
+        </div>
+        <div  style="background-color:#ddd; width: 70%; padding: 25px;">
+          <h2 id="display">
+            Vídeo de YouTube
+          </h2>
+        </div>
+      </div>
+    </div>
+    <script>
+    </script>
+    <script src="js/js.js" type="text/javascript">
+    </script>
+  </body>
+</html>
