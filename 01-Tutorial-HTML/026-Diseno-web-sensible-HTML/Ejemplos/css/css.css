@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    font-size: 12px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: blue;
+    font-family: Verdana;
+}
+ol li {
+    list-style: none;
+    margin-left: -40px;
+    padding-left: 0px;
+}
+h1 {
+    font-size: 1.8em;
+}
+h2 {
+    font-size: 1.5em;
+}
+.cabecera {
+    background-color: #f1f1f1;
+    padding: 15px;
+}
+.menu {
+    float: left;
+    width: 20%;
+    background-color: white;
+}
+.menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 3px solid #f1f1f1;
+}
+.main {
+    float: left;
+    width: 50%;
+    height: 800px;
+    padding: 0px 50px 0px 50px;
+    overflow: hidden;
+    background-color: white;
+}
+.right {
+    background-color: lightblue;
+    float: left;
+    width: 30%;
+    height: 800px;
+    padding: 10px 15px;
+    margin-top: 0px;
+}
+.container {
+    overflow: auto;
+    padding: 2px;
+}
+img {
+    width: 550px;
+}
+.seccionextra {
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer {
+    clear: left;
+    margin-top: 100px;
+    height: 200px;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+    font-size: 12px;
+}
+.seccionextra div {
+    margin-top: 10px;
+    float: left;
+    height: 100px;
+    border: 1px solid white;
+    width: 7%;
+    margin-left: 15px;
+}
+.seccionextra img {
+    width: 100;
+    height: 100px;
+    position: absolute;
+}
+.movil {
+    text-align: center;
+    background-image: url('../../../../img/movil.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 60%;
+}
+/*=======================================*/
+
+/* media query*/
+
+@media only screen and (max-width:1142px) {
+    .seccionextra div {
+        margin-top: 10px;
+        float: left;
+        height: 100px;
+        border: 1px solid white;
+        width: 15%;
+        margin-left: 15px;
+    }
+    .seccionextra {}
+}
+@media only screen and (max-width:920px) {
+    /* For tablets: */
+    .main {
+        width: 80%;
+        padding: 0;
+    }
+    .right {
+        width: 100%;
+    }
+    .seccionextra div {
+        margin-top: 10px;
+        float: left;
+        height: 100px;
+        border: 1px solid white;
+        width: 20%;
+        margin-left: 15px;
+    }
+    .seccionextra {}
+}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+        width: 100%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .seccionextra div {
+        margin-top: 10px;
+        float: left;
+        height: 100px;
+        border: 1px solid white;
+        width: 20%;
+        margin-left: 15px;
+    }
+    .movil {
+        text-align: center;
+        background-image: url('../../../../img/movil.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 50%;
+    }
+}

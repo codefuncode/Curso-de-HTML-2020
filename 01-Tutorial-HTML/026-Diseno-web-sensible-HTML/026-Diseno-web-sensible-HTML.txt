@@ -1,1 +1,271 @@
 026-Diseno-web-sensible-HTML.txt
+
+
+
+======================================================================================
+Puede evitar que el visitante se acerque y aleje con la propiedad escalable del usuario. Solo se recomienda si su sitio web está diseñado de manera receptiva. 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+======================================================================================
+escala mínima y escala máxima: establecer la escala mínima y máxima
+Puede controlar qué tan lejos puede acercar y alejar el visitante configurando la metapropiedad de la vista de escala mínima y máxima. El valor de escala máxima permite el zoom en el sitio web móvil. Aquí hay un ejemplo con propiedades de metaescala mínima y máxima.
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=3.0">
+=====================================================================================
+escala inicial - Establecer escala inicial
+
+Puede manejar la pantalla para el cambio de orientación configurando la escala metainicial en la etiqueta de la ventana gráfica.
+
+<meta name="viewport" content="width=device-width" initial-scale=1.0>
+
+En el caso de una ventana gráfica de iPhone, hasta el lanzamiento de iOS6, la página web haría zoom en el cambio de orientación y necesitaba una solución JS para solucionarlo. Pero ahora, en iOS6 + funciona bien y no amplía el cambio de orientación.
+=====================================================================================
+ancho - Establecer el ancho del dispositivo
+
+Con la propiedad de metaetiqueta viewport de ancho, puede decirle al navegador que muestre su página web en el ancho del dispositivo.
+
+<meta name="viewport" content="width=device-width">
+
+Especialmente en el caso del iPhone, sin usar la metaetiqueta de la ventana gráfica, el safari móvil representa su página web a 980 px y obliga al usuario a tocar para hacer zoom. Con la metaetiqueta de ventana gráfica, también puede establecer el ancho en un valor específico. Por ejemplo -
+
+<meta name="viewport" content="width=600">
+
+El valor del ancho debe estar en píxeles (px). Solo omite las unidades.
+
+--------------------------------------------------------------------------------------
+
+height - Establecer la altura del dispositivo
+
+Al igual que la metapropiedad de la ventana gráfica de ancho, esta propiedad metaresponsable de la ventana gráfica ayuda a manejar el sitio de desplazamiento horizontal. Aquí hay un ejemplo para usarlo:
+
+<meta name="viewport" content="height=device-height">
+
+Con esta metapropiedad de ventana gráfica, también puede establecer la altura a un valor específico. Por ejemplo -
+
+<meta name="viewport" content="height=600">
+
+El valor de la altura debe estar en píxeles (px). Solo omite las unidades.
+=====================================================================================
+
+===================================================================================
+<article> 
+Define un artículo
+===================================================================================
+<aside> 
+Define contenido aparte del contenido de la página
+===================================================================================
+<details> 
+Define detalles adicionales que el usuario puede ver u ocultar
+===================================================================================
+<figcaption> 
+Define un título para un elemento de figura
+===================================================================================
+<figure> 
+Especifica contenido autónomo, como ilustraciones, diagramas, fotos, listados de códigos, etc.
+===================================================================================
+<footer> de página Define un pie de página para un documento o sección
+===================================================================================
+<header>
+Especifica un encabezado para un documento o sección
+===================================================================================
+<main>
+Especifica el contenido principal de un documento
+===================================================================================
+<mark>
+Define texto marcado / resaltado
+===================================================================================
+<nav>
+Define enlaces de navegación
+===================================================================================
+<section>
+Define una sección en un documento
+===================================================================================
+<summary>
+Define un encabezado visible para un elemento de detalles
+===================================================================================
+<time>
+Define una fecha / hora
+===================================================================================
+
+=================================================================================
+Elemento de sección HTML
+El elemento de sección define una sección en un documento.
+Según la documentación HTML del W3C: 'Una sección es una agrupación temática de contenido, generalmente con un encabezado'.
+Una página de inicio normalmente se puede dividir en secciones para introducción, contenido e información de contacto.
+===================================================================================
+
+==================================================================================
+Elemento de artículo HTML
+El elemento del artículo especifica contenido independiente y autónomo.
+Un artículo debe tener sentido por sí solo, y debería ser posible leerlo independientemente del resto del sitio web.
+Ejemplos de dónde se puede usar un elemento de artículo:
+    Publicación del foro
+    Entrada en el blog
+    Artículo de periódico
+==================================================================================
+
+==================================================================================
+Artículo de anidación en la sección o viceversa?
+El elemento de artículo especifica contenido independiente y autónomo.
+El elemento de sección define la sección en un documento.
+¿Podemos usar las definiciones para decidir cómo anidar esos elementos? ¡No podemos!
+Entonces, en Internet, encontrará páginas HTML con elementos de sección que contienen elementos de artículo y elementos de artículo que contienen elementos de sección.
+También encontrará páginas con elementos de sección que contienen elementos de sección y elementos de artículo que contienen elementos de artículo.
+==================================================================================
+
+==================================================================================
+Elemento de encabezado HTML
+El elemento de encabezado especifica un encabezado para un documento o sección.
+El elemento de encabezado debe usarse como contenedor para contenido introductorio.
+Puede tener varios elementos de encabezado en un documento.
+El siguiente ejemplo define un encabezado para un artículo:
+==================================================================================
+
+==================================================================================
+Elemento de pie de página HTML
+El elemento de pie de página especifica un pie de página para un documento o sección.
+Un elemento de pie de página debe contener información sobre su elemento contenedor.
+Un pie de página generalmente contiene el autor del documento, información de copyright, enlaces a los términos de uso, información de contacto, etc.
+Puede tener varios elementos de pie de página en un documento.
+==================================================================================
+
+=================================================================================
+Elemento de navegación HTML
+El elemento nav define un conjunto de enlaces de navegación.
+Tenga en cuenta que NO todos los enlaces de un documento deben estar dentro de un elemento de navegación. El elemento de navegación está destinado solo para el bloque principal de enlaces de navegación.
+=================================================================================
+
+=================================================================================
+Elemento HTML a un lado
+El elemento aparte define algo de contenido aparte del contenido en el que se coloca (como una barra lateral).
+El contenido aparte debe estar relacionado con el contenido circundante.
+=================================================================================
+
+================================================================================
+Figura HTML y elementos de figcaption
+Una imagen y una leyenda se pueden agrupar en un elemento de figura.
+El propósito de un subtítulo es agregar una explicación visual a una imagen.
+================================================================================
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<img src="img_girl.jpg" style="width:100%;"> 
+<img src="img_girl.jpg" style="max-width:100%; height:auto;"> 
+<h1 style="font-size:10vw">Hello World</h1> 
+
+<picture>
+    <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+    <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+    <source srcset="flowers.jpg">
+    <img src="img_smallflower.jpg" alt="Flowers">
+</picture> 
+
+// Dispositivos extra pequeños (teléfonos verticales, menos de 576 px)
+// Sin consulta de medios ya que este es el valor predeterminado en Bootstrap
+
+// Dispositivos pequeños (teléfonos horizontales, 576 px y más)
+@media (min-width: 576px) { ... }
+
+// Dispositivos medianos (tabletas, 768 px y más)
+@media (min-width: 768px) { ... }
+
+// Dispositivos grandes (computadoras de escritorio, 992 px y más)
+@media (min-width: 992px) { ... }
+
+// Dispositivos extra grandes (escritorios grandes, 1200 px y más)
+@media (min-width: 1200px) { ... }
+
+=======================================================
+
+// Dispositivos extra pequeños (teléfonos verticales, menos de 576 px)
+@media (max-width: 575px) { ... }
+
+// Dispositivos pequeños (teléfonos apaisados, menos de 768 px)
+@media (max-width: 767px) { ... }
+
+// Dispositivos medianos (tabletas, menos de 992 px)
+@media (max-width: 991px) { ... }
+
+// Dispositivos grandes (escritorios, menos de 1200px)
+@media (max-width: 1199px) { ... }
+
+==============================================
+
+// Dispositivos extra pequeños (teléfonos verticales, menos de 576 px)
+@media (max-width: 575px) { ... }
+
+// Dispositivos pequeños (teléfonos horizontales, 576 px y más)
+@media (min-width: 576px) and (max-width: 767px) { ... }
+
+// Dispositivos medianos (tabletas, 768 px y más)
+@media (min-width: 768px) and (max-width: 991px) { ... }
+
+// Dispositivos grandes (computadoras de escritorio, 992 px y más)
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+
+// Dispositivos extra grandes (escritorios grandes, 1200 px y más)
+@media (min-width: 1200px) { ... }
+
+
+===============================================================
+
+Size class  
+Breakpoints     
+Typical screen size (diagonal)  
+Devices     
+Window sizes
+
+=========
+Small   
+640px or less   
+4" to 6"; 20" to 65"    
+Phones, TVs     
+320x569, 360x640, 480x854
+
+==========
+Medium  
+641px to 1007px     
+7" to 12"   
+Phablets, tablets   
+960x540
+
+==========
+Large   
+1008px or greater   
+13" and larger  
+PCs, laptops, Surface Hubs  
+1024x640, 1366x768, 1920x1080
+
+=====================================================================
+Valores CSS y unidades
+-----------------------
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
+=====================================================================
+Nombre de la unidad equivalente a
+cm Centímetros 1cm = 96px / 2.54
+mm Milímetros 1 mm = 1/10 de 1 cm
+Q Cuarto de milímetro 1Q = 1/40 de 1cm
+en pulgadas 1in = 2.54cm = 96px
+pc Picas 1pc = 1/6 de 1in
+pt Puntos 1pt = 1/72 de 1in
+px Píxeles 1px = 1/96 de 1 pulg.
+
+Unidad relativa a
+em Tamaño de fuente del elemento primario, en el caso de propiedades tipográficas como tamaño de fuente y tamaño de fuente del elemento en sí, en el caso de otras propiedades como ancho.
+ex x-height de la fuente del elemento.
+ch La medida de avance (ancho) del glifo '0' de la fuente del elemento.
+rem Tamaño de fuente del elemento raíz.
+lh Altura de línea del elemento.
+vw 1% del ancho de la ventana gráfica.
+vh 1% de la altura de la ventana gráfica.
+vmin 1% de la dimensión más pequeña de la ventana gráfica.
+vmáx. 1% de la dimensión más grande de la ventana gráfica.
+
+
+============================================================
+Unidades CSS
+https://www.w3schools.com/cssref/css_units.asp
+============================================================
+
+
+Recomendacion  w3c
+https://www.w3.org/Style/Examples/007/units.en.html

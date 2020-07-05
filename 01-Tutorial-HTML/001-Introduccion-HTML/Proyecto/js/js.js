@@ -11,6 +11,10 @@ function busquedaInstantanea() {
     ul = document.getElementById("myMenu");
     //  la variable li  tendrá el valor  de todos los li que están dentro de ul
     li = ul.getElementsByTagName("li");
+    // Seleccionamos la sección donde escribiremos el titulo 
+    var titulo = document.getElementById('titulo');
+    // Iniciamos la cantidad de elementos cero 
+    var elementos = 0;
 
     //  recorrer todos los elementos li
     for (i = 0; i < li.length; i++) {
@@ -34,9 +38,8 @@ function busquedaInstantanea() {
 
         // =========================================================
     }
-    var titulo = document.getElementById('titulo');
-    var elementos = 0;
-
+    // Recorremos  todos los elementos e incrementamos elementos cada 
+    // vez que un elemento no este en display
     for (var i = 0; i < li.length; i++) {
 
         if (li[i].style.display) {
@@ -46,65 +49,24 @@ function busquedaInstantanea() {
             elementos++;
         }
 
-        // if (elementos == 1) {
-        //     alert("Un solo queda ");
-        // }
-        console.log(i);
-        console.log(li[i].style.display);
     }
-
+    //  Si elementos es igual a uno es que solo hay un elemento 
     if (elementos == 1) {
 
+        //  recorremos los elementos  y que que no este en display  ya que 
+        // sabemos que es uno  Mostramos el valor del que no esta en display
         for (var i = 0; i < li.length; i++) {
 
             if (li[i].style.display) {
 
             } else {
+                //  seleccionamos el valor de indice correspondiente y lo 
+                // mostramos en el elemento destinado a mostrar el resultado 
                 a = li[i].getElementsByTagName("a")[0];
                 document.getElementById('display').innerHTML = a.innerHTML;
             }
         }
-        // alert("Un solo queda ");
+
     }
-    console.log('====================');
-    console.log(elementos);
-    console.log('====================');
+
 }
-
-// var input, filter, ul, li, a, i;
-
-// input = document.getElementById("mySearch");
-
-// filter = input.value.toUpperCase();
-
-// ul = document.getElementById("myMenu");
-
-// li = ul.getElementsByTagName("li");
-
-// console.log(input);
-// console.log(ul);
-
-// for (var i = 0; i < li.length; i++) {
-//     console.log('Elemento numero ' + i);
-//     console.log(li[i]);
-//     console.log('=========');
-// }
-
-// var enlace = document.querySelectorAll("li a");
-// var marco = document.getElementById('marco');
-
-// for (var i = 0; i < enlace.length; i++) {
-//     console.log(enlace[i]);
-//     enlace[i].onmouseover = function(event) {
-
-//         marco.setAttribute("src", "" + enlace[i].getAttribute("href") + "");
-//     }
-
-// }
-
-// var array = [2, 9, 9];
-// array.indexOf(2);     // 0
-// array.indexOf(7);     // -1
-// array.indexOf(9, 2);  // 2
-// array.indexOf(2, -1); // -1
-// array.indexOf(2, -3); // 0
