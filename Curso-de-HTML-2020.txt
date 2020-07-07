@@ -15,7 +15,7 @@ Progreso-
 * 01-Tutorial-HTML
 	* 001-Introduccion-HTML
 	* 002-Editores-HTML
-	* 003-HTML-basico
+	* 003-HTML-basico 
 	* 004-Elementos-HTML
 	* 005-Atributos-HTML
 	* 006-Encabezados-HTML
