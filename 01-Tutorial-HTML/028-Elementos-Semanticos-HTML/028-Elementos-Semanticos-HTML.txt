@@ -1,0 +1,35 @@
+Elementos Semánticos en HTML
+
+A continuación se muestra una lista de algunos de los elementos semánticos en HTML.
+Descripción de la etiqueta
+artículo define contenido independiente y autónomo
+aparte Define contenido aparte del contenido de la página
+detalles Define detalles adicionales que el usuario puede ver u ocultar
+figcaption Define un título para un elemento de figura
+figura Especifica contenido autónomo, como ilustraciones, diagramas, fotos, listados de códigos, etc.
+pie de página Define un pie de página para un documento o sección
+encabezado Especifica un encabezado para un documento o sección
+main Especifica el contenido principal de un documento
+marca Define texto marcado / resaltado
+nav Define enlaces de navegación
+section Define una sección en un documento
+resumen Define un encabezado visible para un elemento de detalles
+hora Define una fecha / hora
+
+Semantic Elements in HTML
+
+Below is a list of some of the semantic elements in HTML.
+Tag 	Description
+<article> 	Defines independent, self-contained content
+<aside> 	Defines content aside from the page content
+<details> 	Defines additional details that the user can view or hide
+<figcaption> 	Defines a caption for a <figure> element
+<figure> 	Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+<footer> 	Defines a footer for a document or section
+<header> 	Specifies a header for a document or section
+<main> 	Specifies the main content of a document
+<mark> 	Defines marked/highlighted text
+<nav> 	Defines navigation links
+<section> 	Defines a section in a document
+<summary> 	Defines a visible heading for a <details> element
+<time> 	Defines a date/time

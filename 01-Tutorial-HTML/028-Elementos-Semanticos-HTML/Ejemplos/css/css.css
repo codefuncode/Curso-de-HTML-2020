@@ -1,0 +1,66 @@
+body {
+    padding: 0% 0% 0% 5%;
+    margin: 5% 0% 0% 0%;
+}
+div>div {
+    border: 1px solid blue;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: green;
+}
+div>div h2 {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+body>div {
+    border: 5px solid black;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+    width: 40%;
+    height: 700px;
+}
+.forecast {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+.forecast>h1, .day-forecast {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+.day-forecast {
+    background-color: white;
+}
+.day-forecast>h2, .day-forecast>p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+.film_review {
+    background-color: #eee;
+    padding: 10px;
+}
+.main_review {
+    /*border: 1px solid black;*/
+}
+.user_reviews {
+    background-color: #f8f9b8;
+    padding: 5px;
+    margin-top: 10px;
+}
+.user_reviews footer {
+    font-size: 10px;
+    color: gray;
+}
+.user_reviews p {
+    padding: 10px;
+    background-color: white;
+}
+.film_review section article {
+    border: 1px solid black;
+    padding: 20px 5px 20px 5px;
+    margin-bottom: 20px;
+}
