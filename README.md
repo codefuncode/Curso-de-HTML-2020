@@ -38,6 +38,7 @@ Módulos completados
 	- 023-Rutas-de-archivo-HTML
 	- 024-HTML-El-elemento-principal
 	- 025-Elementos-y-tecnicas-de-diseno-HTML
+	- 026-Diseno-web-sensible-HTML
 
 ---
 

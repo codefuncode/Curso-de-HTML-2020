@@ -1,0 +1,41 @@
+kbd {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    /*box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7);*/
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+    color: #333;
+    /*El elemento genera un cuadro de elemento 
+    de bloque que fluirá con el contenido circundante 
+    como si fuera un único cuadro en línea (comportándose 
+    de manera muy similar a como lo haría 
+    un elemento reemplazado).*/
+    display: inline-block;
+    font-size: .85em;
+    font-weight: 700;
+    /*La propiedad CSS de altura de línea establece la 
+    cantidad de espacio utilizado para las líneas, 
+    como en el texto. En elementos de nivel de bloque, 
+    especifica la altura mínima de los cuadros de 
+    línea dentro del elemento. En elementos en 
+    línea no reemplazados, especifica la altura 
+    que se utiliza para calcular la altura 
+    del cuadro de línea.*/
+    line-height: 1;
+    padding: 6px 6px;
+    /*white-space: nowrap;*/
+}
+samp {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 6px 6px;
+}
+var {
+    font-weight: bold;
+    color: brown;
+}
