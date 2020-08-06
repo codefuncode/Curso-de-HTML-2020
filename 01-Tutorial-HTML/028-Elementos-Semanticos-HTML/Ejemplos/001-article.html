@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- 
+		Elemento de artículo HTML
+
+		El elemento del artículo especifica contenido independiente y autónomo.
+
+		Un artículo debe tener sentido por sí solo, y debe ser posible distribuirlo independientemente del resto del sitio web.
+
+		Ejemplos de dónde se puede usar un elemento de artículo:
+
+		Publicación del foro
+		Entrada en el blog
+		Artículo de periódico 
+		-->
+  <!-- 
+		Artículo de anidación en la sección o viceversa?
+
+		El elemento del artículo especifica contenido independiente y autónomo.
+
+		El elemento de sección define la sección en un documento.
+
+		¿Podemos usar las definiciones para decidir cómo anidar esos elementos? ¡No podemos!
+
+		Por lo tanto, encontrará páginas HTML con elementos de sección que contienen elementos de artículo y elementos de artículo que contienen elementos de sección.
+		-->
+  <!-- 
+		Elemento de encabezado HTML
+
+		El elemento de encabezado representa un contenedor para contenido introductorio o un conjunto de enlaces de navegación.
+
+		Un elemento de encabezado generalmente contiene:
+
+		uno o más elementos de encabezado (h1 - h6)
+		logotipo o icono
+		información de autoría
+
+		Nota: Puede tener varios elementos de encabezado en un documento HTML. Sin embargo, el encabezado no se puede colocar dentro de un pie de página, dirección u otro elemento de encabezado.
+		-->
+  <head>
+    <meta charset="utf-8"/>
+    <link href="css/article.css" rel="stylesheet" type="text/css"/>
+    <title>
+      Document
+    </title>
+  </head>
+  <body>
+    <article class="all-browsers">
+      <h1>
+        Most Popular Browsers
+      </h1>
+      <article class="browser">
+        <h2>
+          Google Chrome
+        </h2>
+        <p>
+          Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!
+        </p>
+      </article>
+      <article class="browser">
+        <h2>
+          Mozilla Firefox
+        </h2>
+        <p>
+          Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.
+        </p>
+      </article>
+      <article class="browser">
+        <h2>
+          Microsoft Edge
+        </h2>
+        <p>
+          Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.
+        </p>
+      </article>
+    </article>
+    <hr/>
+    <article>
+      <header>
+        <h1>
+          What Does WWF Do?
+        </h1>
+        <p>
+          WWF's mission:
+        </p>
+      </header>
+      <p>
+        WWF's mission is to stop the degradation of our planet's natural environment, and build a future in which humans live in harmony with nature.
+      </p>
+    </article>
+    <hr/>
+    <article>
+      <h2>
+        Google Chrome
+      </h2>
+      <p>
+        Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!
+      </p>
+    </article>
+    <article>
+      <h2>
+        Mozilla Firefox
+      </h2>
+      <p>
+        Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.
+      </p>
+    </article>
+    <article>
+      <h2>
+        Microsoft Edge
+      </h2>
+      <p>
+        Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.
+      </p>
+    </article>
+  </body>
+</html>

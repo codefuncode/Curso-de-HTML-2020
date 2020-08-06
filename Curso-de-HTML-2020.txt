@@ -61,7 +61,7 @@ Tutorial HTML5
     HTML5 - Web CORS
     HTML5 - Web RTC
 
-    Demostración HTML5
+Demostración HTML5
     HTML5 - Almacenamiento web
     HTML5: eventos enviados por el servidor
     HTML5 - Canvas
@@ -72,7 +72,7 @@ Tutorial HTML5
     HTML5 - Trabajador web
     HTML5 - Escritorio de diapositivas web
 
-    Herramientas HTML5
+Herramientas HTML5
     HTML5 - Generador SVG
     HTML5 - MathML
     HTML5 - Velocity Draw
@@ -83,7 +83,7 @@ Tutorial HTML5
     HTML5 - Editor en línea
     HTML5 - Generador de código de color
 
-    Referencias Útiles HTML5
+ Referencias Útiles HTML5
     HTML5 - Guía rápida
     HTML5 - Nombres de color
     HTML5 - Referencia de fuentes
@@ -91,17 +91,86 @@ Tutorial HTML5
     HTML5 - Entidades
     HTML5 - Codificaciones de caracteres
 
-    Referencia de etiqueta HTML5
+Referencia de etiqueta HTML5
     HTML5 - Preguntas y respuestas
     HTML5 - Referencia de etiquetas
     HTML5 - Etiquetas obsoletas
     HTML5 - Nuevas etiquetas
 
-    Recursos HTML5
+ Recursos HTML5
     HTML5 - Recursos útiles
     HTML5 - Discusión
 
+html
+==========================================================================================================
 
+    HTML - Inicio
+    HTML - Descripción general
+    HTML - Etiquetas básicas
+    HTML - Elementos
+    HTML - Atributos
+    HTML - Formateo
+    HTML - Etiquetas de frase
+    HTML - Metaetiquetas
+    HTML - Comentarios
+    HTML - Imágenes
+    HTML - Tablas
+    HTML - Listas
+    HTML - Enlaces de texto
+    HTML - Enlaces de imagen
+    HTML - Enlaces de correo electrónico
+    HTML - Marcos
+    HTML - Iframes
+    HTML - Bloques
+    HTML - Fondos
+    HTML - Colores
+    HTML - Fuentes
+    HTML - Formularios
+    HTML - Incrustar Multimedia
+    HTML - Marquesinas
+    HTML - Encabezado
+    HTML - Hoja de estilo
+    HTML - Javascript
+    HTML - Diseños
+
+Referencias HTML
+    HTML - Referencia de etiquetas
+    HTML - Referencia de atributos
+    HTML - Referencia de eventos
+    HTML - Referencia de fuentes
+    HTML - Códigos ASCII
+
+Búsqueda de tabla ASCII
+
+    HTML - Nombres de colores
+    HTML - Entidades
+    HTML - Ref. Fuentes
+    HTML - Referencia de eventos
+    Tipos de medios MIME
+    HTML - Codificación de URL
+    Códigos ISO de idiomas
+    HTML - Codificaciones de caracteres
+    HTML - Etiquetas obsoletas
+
+Recursos HTML
+    HTML - Guía rápida
+    HTML - Recursos útiles
+    HTML - Generador de código de color
+    HTML - Discusión
+    HTML - Editor en línea
+
+Lectura seleccionada
+    Notas de los exámenes UPSC IAS
+    Mejores prácticas del desarrollador
+    Preguntas y respuestas
+    Redacción efectiva de currículums
+    Preguntas de la entrevista de recursos humanos
+    Glosario informático
+    Quién es quién
+
+
+
+==========================================================================================================
 
 ====================================================================
 Referencia 

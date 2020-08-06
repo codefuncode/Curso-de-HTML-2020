@@ -1,0 +1,498 @@
+
+ 
+
+
+incex.html
+
+
+nombredearchivo.css
+nombredearchivo.js
+nombredearchivo.php
+
+
+
+
+
+
+
+
+
+
+
+ Diapositiva #5
+
+ dato interesante 
+ https://es.wikipedia.org/wiki/Diagrama_de_flujo
+
+======================================
+https://freefrontend.com/html-css-style-guides/
+===================================
+
+https://html-style-guide.netlify.app/
+
+https://data-flair.training/blogs/html-style-guide
+
+https://www.w3schools.com/html/html5_syntax.asp
+
+https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Writing_style_guide
+
+https://google.github.io/styleguide/htmlcssguide.html
+
+
+
+=================================
+
+Guía de estilo HTML y convenciones de codificación
+
+Un código HTML coherente, limpio y ordenado facilita que otros lean y entiendan su código.
+
+Aquí hay algunas pautas y consejos para crear un buen código HTML.
+Declarar siempre el tipo de documento
+
+Siempre declare el tipo de documento como la primera línea de su documento.
+
+El tipo de documento correcto para HTML es:
+
+
+<!DOCTYPE html>
+
+================================
+
+Usar nombres de elementos en minúscula
+
+HTML permite mezclar letras mayúsculas y minúsculas en los nombres de los elementos.
+
+Sin embargo, recomendamos usar nombres de elementos en minúsculas, porque:
+
+    Mezclar nombres en mayúsculas y minúsculas se ve mal
+    Los desarrolladores normalmente usan nombres en minúsculas
+    Minúscula se ve más limpia
+    Minúscula es más fácil de escribir.
+
+
+Good:
+<body>
+<p>This is a paragraph.</p>
+</body>
+
+Bad:
+<BODY>
+<P>This is a paragraph.</P>
+</BODY> 
+
+=================================
+
+Cerrar todos los elementos HTML
+
+En HTML, no tiene que cerrar todos los elementos (por ejemplo, el elemento p).
+
+Sin embargo, recomendamos cerrar todos los elementos HTML, como este:
+
+
+Good:
+<section>
+  <p>This is a paragraph.</p>
+  <p>This is a paragraph.</p>
+</section>
+Bad:
+<section>
+  <p>This is a paragraph.
+  <p>This is a paragraph.
+</section> 
+
+================================
+
+Usar nombres de atributo en minúsculas
+
+HTML permite mezclar letras mayúsculas y minúsculas en los nombres de los atributos.
+
+Sin embargo, recomendamos usar nombres de atributos en minúsculas, porque:
+
+    Mezclar nombres en mayúsculas y minúsculas se ve mal
+    Los desarrolladores normalmente usan nombres en minúsculas
+    Aspecto más limpio en minúsculas
+    Las minúsculas son más fáciles de escribir.
+
+
+Good:
+<a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+Bad:
+<a HREF="https://www.w3schools.com/html/">Visit our HTML tutorial</a> 
+
+==================================
+
+
+Citar siempre los valores de los atributos
+
+HTML permite valores de atributos sin comillas.
+
+Sin embargo, recomendamos citar valores de atributos, porque:
+
+    Los desarrolladores normalmente citan valores de atributos
+    Los valores citados son más fáciles de leer.
+    DEBE usar comillas si el valor contiene espacios
+
+
+Good:
+<table class="striped">
+Bad:
+<table class=striped>
+Very bad:
+
+This will not work, because the value contains spaces:
+<table class=table striped> 
+
+
+======================================
+
+Especifique siempre alt, ancho y alto para imágenes
+
+Siempre especifique el atributo alt para las imágenes. Este atributo es importante si la imagen por alguna razón no se puede mostrar.
+
+Además, siempre defina el ancho y el alto de las imágenes. Esto reduce el parpadeo, porque el navegador puede reservar espacio para la imagen antes de cargarla.
+
+
+Good:
+<img src="html5.gif" alt="HTML5" style="width:128px;height:128px">
+Bad:
+<img src="html5.gif"> 
+
+=================================
+
+Espacios y signos iguales
+
+HTML permite espacios alrededor de signos iguales. Pero sin espacio es más fácil de leer y agrupa mejor las entidades.
+
+
+Good:
+<link rel="stylesheet" href="styles.css">
+Bad:
+<link rel = "stylesheet" href = "styles.css"> 
+
+===================================
+
+Evitar largas líneas de código
+
+Cuando se utiliza un editor HTML, NO es conveniente desplazarse hacia la derecha y hacia la izquierda para leer el código HTML.
+
+Intenta evitar líneas de código demasiado largas.
+
+
+
+
+Líneas en blanco e indentación
+
+No agregue líneas en blanco, espacios o hendiduras sin una razón.
+
+Para facilitar la lectura, agregue líneas en blanco para separar bloques de código grandes o lógicos.
+
+Para facilitar la lectura, agregue dos espacios de sangría. No use la tecla de tabulación.
+
+
+
+Good:
+<body>
+
+<h1>Famous Cities</h1>
+
+<h2>Tokyo</h2>
+<p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
+and the most populous metropolitan area in the world.
+It is the seat of the Japanese government and the Imperial Palace,
+and the home of the Japanese Imperial Family.</p>
+
+</body>
+
+
+Bad:
+<body>
+
+  <h1>Famous Cities</h1>
+
+  <h2>Tokyo</h2>
+
+  <p>
+    Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
+    and the most populous metropolitan area in the world.
+    It is the seat of the Japanese government and the Imperial Palace,
+    and the home of the Japanese Imperial Family.
+  </p>
+
+</body>
+
+Good Table Example:
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td>Description of A</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>Description of B</td>
+  </tr>
+</table>
+
+Good List Example:
+<ul>
+  <li>London</li>
+  <li>Paris</li>
+  <li>Tokyo</li>
+</ul>
+
+
+====================================
+
+Nunca omita el elemento del título
+
+El elemento de título es obligatorio en HTML.
+
+¡El contenido del título de una página es muy importante para la optimización de motores de búsqueda (SEO)! Los algoritmos de los motores de búsqueda utilizan el título de la página para decidir el orden cuando se enumeran las páginas en los resultados de búsqueda.
+
+El elemento del título:
+
+    define un título en la barra de herramientas del navegador
+    proporciona un título para la página cuando se agrega a favoritos
+    muestra un título para la página en los resultados del motor de búsqueda
+
+Por lo tanto, trate de hacer que el título sea lo más preciso y significativo posible:
+
+
+<title>HTML Style Guide and Coding Conventions</title>
+
+
+====================================
+
+
+Omitiendo html y cuerpo?
+
+Una página HTML se validará sin las etiquetas html y body
+
+Example
+
+<!DOCTYPE html>
+<head>
+  <title>Page Title</title>
+</head>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p> 
+
+Sin embargo, recomendamos encarecidamente agregar siempre las etiquetas html y body.
+
+Omitir el cuerpo puede producir errores en los navegadores más antiguos.
+
+Omitir html y body también puede bloquear el software DOM y XML.
+
+
+======================================
+
+¿Omitiendo la cabeza?
+
+La etiqueta de encabezado HTML también se puede omitir.
+
+Los navegadores agregarán todos los elementos antes del cuerpo, a un elemento principal predeterminado.
+
+
+Example
+<!DOCTYPE html>
+<html>
+<title>Page Title</title>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html> 
+
+Sin embargo, recomendamos usar la etiqueta de cabeza.
+
+================================
+
+¿Cerrar elementos HTML vacíos?
+
+En HTML, es opcional cerrar elementos vacíos.
+
+
+Allowed:
+<meta charset="utf-8">
+Also Allowed:
+<meta charset="utf-8" />
+
+Si espera que el software XML / XHTML acceda a su página, mantenga la barra inclinada de cierre (/), porque es obligatorio en XML y XHTML.
+
+====================================
+
+Agregar el atributo lang
+
+Siempre debe incluir el atributo lang dentro de la etiqueta html para declarar el idioma de la página web. Esto está destinado a ayudar a los motores de búsqueda y navegadores.
+
+Example
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html> 
+
+===================================
+
+Metadatos
+
+Para garantizar una interpretación adecuada y una correcta indexación del motor de búsqueda, tanto el lenguaje como la codificación de caracteres meta charset = 'charset' deben definirse lo antes posible en un documento HTML:
+
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+
+
+==================================
+
+Configuración de la ventana gráfica
+
+La ventana gráfica es el área visible del usuario de una página web. Varía según el dispositivo: será más pequeño en un teléfono móvil que en la pantalla de una computadora.
+
+Debe incluir el siguiente metaelemento en todas sus páginas web:
+meta name = 'viewport' content = 'ancho = ancho del dispositivo, escala inicial = 1.0'
+
+Esto le da al navegador instrucciones sobre cómo controlar las dimensiones y la escala de la página.
+
+La parte ancho = ancho del dispositivo establece el ancho de la página para seguir el ancho de la pantalla del dispositivo (que variará según el dispositivo).
+
+La parte initial-scale = 1.0 establece el nivel de zoom inicial cuando el navegador carga por primera vez la página.
+
+Aquí hay un ejemplo de una página web sin la metaetiqueta de la ventana gráfica, y la misma página web con la metaetiqueta de la ventana gráfica:
+
+
+==================================
+
+Comentarios HTML
+
+Los comentarios breves deben escribirse en una línea, como esta:
+
+<! -- Este es un comentario -- >
+
+Los comentarios que abarcan más de una línea deben escribirse así:
+<! --
+  Este es un largo ejemplo de comentario. Este es un largo ejemplo de comentario.
+  Este es un largo ejemplo de comentario. Este es un largo ejemplo de comentario.
+-- >
+
+Los comentarios largos son más fáciles de observar si están sangrados con dos espacios.
+
+===============================
+
+
+Usar hojas de estilo
+
+Utilice una sintaxis simple para vincular a hojas de estilo (el atributo de tipo no es necesario):
+
+
+<link rel="stylesheet" href="styles.css">
+
+Las reglas cortas de CSS pueden escribirse comprimidas, de esta manera:
+
+p.intro {font-family:Verdana;font-size:16em;}
+
+Las reglas CSS largas deben escribirse en varias líneas:
+
+body {
+  background-color: lightgrey;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-size: 16em;
+  color: black;
+}
+
+Coloque el soporte de apertura en la misma línea que el selector
+Use un espacio antes del soporte de apertura
+Usa dos espacios de sangría
+Use punto y coma después de cada par de propiedad-valor, incluido el último
+Solo use comillas alrededor de los valores si el valor contiene espacios
+Coloque el soporte de cierre en una nueva línea, sin espacios iniciales
+
+
+================================
+
+Cargando JavaScript en HTML
+
+Utilice una sintaxis simple para cargar scripts externos (el atributo type no es necesario):
+
+
+<script src="myscript.js">
+
+
+=================================
+
+Acceso a elementos HTML con JavaScript
+
+El uso del código HTML 'desordenado' puede provocar errores de JavaScript.
+
+Estas dos declaraciones de JavaScript producirán resultados diferentes:
+
+Example
+getElementById("Demo").innerHTML = "Hello";
+
+getElementById("demo").innerHTML = "Hello";
+
+
+===========================
+
+
+Utilice nombres de archivo en minúsculas
+
+Algunos servidores web (Apache, Unix) distinguen entre mayúsculas y minúsculas sobre los nombres de archivo: no se puede acceder a 'london.jpg' como 'London.jpg'.
+
+Otros servidores web (Microsoft, IIS) no distinguen entre mayúsculas y minúsculas: se puede acceder a 'london.jpg' como 'London.jpg'.
+
+Si usa una combinación de mayúsculas y minúsculas, debe ser consciente de esto.
+
+Si pasa de un servidor que no distingue entre mayúsculas y minúsculas a un servidor que distingue mayúsculas y minúsculas, ¡incluso los pequeños errores romperán su web!
+
+Para evitar estos problemas, ¡use siempre nombres de archivo en minúsculas!
+
+
+=================================
+
+
+Extensiones de archivo
+
+Los archivos HTML deben tener una extensión .html o .htm.
+
+Los archivos CSS deben tener una extensión .css.
+
+Los archivos JavaScript deben tener una extensión .js.
+
+
+Diferencias entre .htm y .html?
+
+¡No hay diferencia entre las extensiones de archivo .htm y .html!
+
+Ambos serán tratados como HTML por cualquier navegador web y servidor web.
+
+
+================================
+
+Nombres de archivo predeterminados
+
+Cuando una URL no especifica un nombre de archivo al final (como 'https://www.w3schools.com/'), el servidor simplemente agrega un nombre de archivo predeterminado, como 'index.html', 'index.htm', ' default.html 'o' default.htm '.
+
+Si su servidor está configurado solo con 'index.html' como nombre de archivo predeterminado, su archivo debe llamarse 'index.html' y no 'default.html'.
+
+Sin embargo, los servidores se pueden configurar con más de un nombre de archivo predeterminado; por lo general, puede configurar tantos nombres de archivos predeterminados como desee.
+
+

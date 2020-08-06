@@ -16,20 +16,458 @@ section Define una sección en un documento
 resumen Define un encabezado visible para un elemento de detalles
 hora Define una fecha / hora
 
-Semantic Elements in HTML
 
-Below is a list of some of the semantic elements in HTML.
-Tag 	Description
-<article> 	Defines independent, self-contained content
-<aside> 	Defines content aside from the page content
-<details> 	Defines additional details that the user can view or hide
-<figcaption> 	Defines a caption for a <figure> element
-<figure> 	Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
-<footer> 	Defines a footer for a document or section
-<header> 	Specifies a header for a document or section
-<main> 	Specifies the main content of a document
-<mark> 	Defines marked/highlighted text
-<nav> 	Defines navigation links
-<section> 	Defines a section in a document
-<summary> 	Defines a visible heading for a <details> element
-<time> 	Defines a date/time
+
+<article> 		Define contenido independiente y autónomo
+
+<aside>  		Define contenido aparte del contenido de la página
+
+<details>		Define detalles adicionales que el usuario puede ver u ocultar
+
+<figcaption> 	Define un título para un elemento de figura
+
+<figure> 		Especifica contenido autónomo, como ilustraciones, diagramas, fotos, listados de códigos, etc.
+
+<footer>  		Define un pie de página para un documento o sección
+
+<header>		Especifica un encabezado para un documento o sección
+
+<main> 			Especifica el contenido principal de un documento
+
+<mark> 			Define texto marcado / resaltado
+
+<nav>  			Define enlaces de navegación
+
+<section> 		Define una sección en un documento
+
+<summary> 		Define un encabezado visible para un elemento de detalles
+
+<time> 			Define una fecha / hora
+
+==========================================================================
+
+figure          Especifica una imagen con diferentes formatos.
+
+article         Especifica un artículo independiente independiente.
+
+nav             Especifica un contenedor para enlaces de navegación.
+
+aside           Especifica una etiqueta para el contenido aparte del contenido principal (como una barra lateral).
+
+section         Representa una sección en un documento.
+
+details         Especifica una etiqueta para detalles adicionales.
+
+header          Especifica un encabezado para una sección o para un documento.
+
+footer          Especifica un pie de página para una sección o documento
+
+figcaption      Especifica una pequeña descripción para una imagen en un documento HTML.
+
+main            Especifica el contenido principal de la página y debe ser único.
+
+summary         Especifica un encabezado para el elemento de detalles.
+
+mark            Especifica el texto resaltado.
+==========================================================================
+
+HTML / Elements
+
+    a
+    abbr
+    address
+    area
+    article
+    aside
+    audio
+    b
+    base
+    bdi
+    bdo
+    blockquote
+    body
+    br
+    button
+    canvas
+    caption
+    cite
+    code
+    col
+    colgroup
+    data
+    datalist
+    dd
+    del
+    details
+    dfn
+    dialog
+    div
+    dl
+    dt
+    em
+    embed
+    fieldset
+    figcaption
+    figure
+    footer
+    form
+    h1
+    h2
+    h3
+    h4
+    h5
+    h6
+    head
+    header
+    hr
+    html
+    i
+    iframe
+    img
+    input
+    input type="button"
+    input type="checkbox"
+    input type="color"
+    input type="date"
+    input type="datetime"-local
+    input type="email"
+    input type="file"
+    input type="hidden"
+    input type="image"
+    input type="month"
+    input type="number"
+    input type="password"
+    input type="radio"
+    input type="range"
+    input type="reset"
+    input type="search"
+    input type="submit"
+    input type="tel"
+    input type="text"
+    input type="time"
+    input type="url"
+    input type="week"
+    ins
+    kbd
+    label
+    legend
+    li
+    link
+    main
+    map
+    mark
+    meta
+    meter
+    nav
+    noscript
+    object
+    ol
+    optgroup
+    option
+    output
+    p
+    param
+    picture
+    pre
+    progress
+    q
+    rb
+    rp
+    rt
+    rtc
+    ruby
+    s
+    samp
+    script
+    section
+    select
+    slot
+    small
+    source
+    span
+    strong
+    style
+    sub
+    summary
+    sup
+    table
+    tbody
+    td
+    template
+    textarea
+    tfoot
+    th
+    thead
+    time
+    title
+    tr
+    track
+    u
+    ul
+    var
+    video
+    wbr
+
+
+<!--...-->              Define un comentario
+
+<!DOCTYPE>              Define el tipo de documento
+
+<a>                     Define un hipervínculo
+
+<abbr>                  Define una abreviatura o un acrónimo
+
+<acronym>               No es compatible con HTML5. Use abbr en su lugar. Define un acrónimo
+
+<address>               Define la información de contacto del autor / propietario de un documento
+
+<applet>                No soportado en HTML5. Use incrustar u objeto en su lugar.  Define un applet incrustado
+
+<area>                  Define un área dentro de un mapa de imagen
+
+<article>               Define un artículo
+
+<aside>                 Define contenido aparte del contenido de la página
+
+<audio>                 Define contenido de sonido incrustado
+
+<b>                     Define texto en negrita
+
+<base>                  Especifica la URL base / destino para todas las URL relativas en un documento
+
+<basefont>              No es compatible con HTML5. Use CSS en su lugar. Especifica un color, tamaño y fuente  predeterminados para todo el texto de un documento
+
+<bdi>                   Aísla una parte del texto que podría estar formateada en una dirección diferente de otro 
+                        texto fuera de él
+
+<bdo>                   Anula la dirección actual del texto
+
+<big>                   No es compatible con HTML5. Use CSS en su lugar.   Define texto grande
+
+<blockquote>            Define una sección que se cita de otra fuente
+
+<body>                  Define el cuerpo del documento
+
+<br>                    Define un salto de línea único
+
+<button>                Define un botón en el que se puede hacer clic
+
+<canvas>                Se utiliza para dibujar gráficos, sobre la marcha, a través de secuencias de comandos  (generalmente JavaScript)
+
+<caption>               Define un subtítulo de tabla
+
+<center>                No es compatible con HTML5. Use CSS en su lugar. Define texto centrado
+
+<cite>                  Define el título de una obra
+
+<code>                  Define un fragmento de código de computadora
+
+<col>                   Especifica las propiedades de columna para cada columna dentro de un elemento colgroup
+
+<colgroup>              Especifica un grupo de una o más columnas en una tabla para formatear
+
+<data>                  Agrega una traducción legible por máquina de un contenido determinado
+
+<datalist>              Especifica una lista de opciones predefinidas para controles de entrada
+
+<dd>                    Define una descripción / valor de un término en una lista de descripción
+
+<del>                   Define el texto que se ha eliminado de un documento
+
+<details>               Define detalles adicionales que el usuario puede ver u ocultar
+
+<dfn>                   Especifica un término que se definirá dentro del contenido
+
+<dialog>                Define un cuadro de diálogo o ventana
+
+<dir>                   No es compatible con HTML5. Use ul en su lugar. Define una lista de directorio
+
+<div>                   Define una sección en un documento
+
+<dl>                    Define una lista descriptiva
+
+<dt>                    Define un término / nombre en una lista de descripción
+
+<em>                    Define texto enfatizado
+
+<embed>                 Define un contenedor para una aplicación externa
+
+<fieldset>              Agrupa elementos relacionados en un formulario
+
+<figcaption>            Define un título para un elemento de figura
+
+<figure>                Especifica contenido autónomo
+
+<font>                  No compatible en HTML5. Use CSS en su lugar. Define la fuente, el color y el  tamaño del texto.
+
+<footer>                Define un pie de página para un documento o sección
+
+<form>                  Define un formulario HTML para la entrada del usuario
+
+<frame>                 No soportado en HTML5. Define una ventana (un marco) en un conjunto de  marcos 
+
+<frameset>              No es compatible con HTML5. Define un conjunto de marcos.
+
+<h1> to <h6>            Define encabezados HTML
+
+<head>                  Contiene metadatos / información para el documento
+
+<header>                Define un encabezado para un documento o sección
+
+<hr>                    Define un cambio temático en el contenido.
+
+<html>                  Define la raíz de un documento HTML
+
+<i>                     Define una parte del texto en una voz o estado de ánimo alternativo
+
+<iframe>                Define un marco en línea
+
+<img>                   Define una imagen
+
+<input>                 Define un control de entrada
+
+<ins>                   Define un texto que se ha insertado en un documento
+
+<kbd>                   Define la entrada del teclado
+
+<label>                 Define una etiqueta para un elemento de entrada
+
+<legend>                Define un título para un elemento de conjunto de campos
+
+<li>                    Define un elemento de la lista
+
+<link>                  Define la relación entre un documento y un recurso externo (más utilizado  para vincular a  hojas de estilo)
+
+<main>                  Especifica el contenido principal de un documento
+
+<map>                   Define un mapa de imagen
+
+<mark>                  Define texto marcado / resaltado
+
+<meta>                  Define metadatos sobre un documento HTML
+
+<meter>                 Define una medición escalar dentro de un rango conocido (un medidor)
+
+<nav>                   Define enlaces de navegación
+
+<noframes>              No es compatible con HTML5. Define un contenido alternativo para usuarios  que no admiten marcos
+
+<noscript>              Define un contenido alternativo para usuarios que no admiten scripts del  lado del cliente
+
+<object>                Define un contenedor para una aplicación externa
+
+<ol>                    Define una lista ordenada
+
+<optgroup>              Define un grupo de opciones relacionadas en una lista desplegable
+
+<option>                Define una opción en una lista desplegable
+
+<output>                Define el resultado de un cálculo
+
+<p>                     Define un párrafo
+
+<param>                 Define un parámetro para un objeto
+
+<picture>               Define un contenedor para múltiples recursos de imagen
+
+<pre>                   Define texto preformateado
+
+<progress>              Representa el progreso de una tarea
+
+<q>                     Define una cita corta
+
+<rp>                    Define qué mostrar en los navegadores que no admiten anotaciones ruby
+
+<rt>                    Define una explicación / pronunciación de caracteres (para la tipografía de Asia oriental)
+
+<ruby>                  Define una anotación ruby ​​(para tipografía de Asia oriental)
+
+<s>                     Define el texto que ya no es correcto
+
+<samp>                  Define la salida de muestra de un programa de computadora
+
+<script>                Define un script del lado del cliente
+
+<section>               Define una sección en un documento
+
+<select>                Define una lista desplegable
+
+<small>                 Define texto más pequeño
+
+<source>                Define múltiples recursos multimedia para elementos multimedia (video y  audio)
+
+<span>                  Define una sección en un documento
+
+<strike>                No es compatible con HTML5. Use del o s en su lugar. Define texto tachado
+
+<strong>                Define texto importante
+
+<style>                 Define información de estilo para un documento
+
+<summary>               Define un encabezado visible para un elemento de detalles
+
+<sub>                   Define texto superíndice
+
+<svg>                   Define un contenedor para gráficos SVG
+
+<table>                 Define una tabla
+
+<tbody>                 Agrupa el contenido del cuerpo en una tabla
+
+<td>                    Define una celda en una tabla
+
+<template>              Define un contenedor para el contenido que debe ocultarse cuando se carga la página
+
+<textarea>              Define un control de entrada multilínea (área de texto)
+
+<tfoot>                 Agrupa el contenido del pie de página en una tabla
+
+<th>                    Define una celda de encabezado en una tabla
+
+<thead>                 Agrupa el contenido del encabezado en una tabla
+
+<time>                  Define una hora específica (o fecha y hora)
+
+<title>                 Define un título para el documento.
+
+<tr>                    Define una fila en una tabla
+
+<track>                 Define pistas de texto para elementos multimedia (video y audio)
+
+<tt>                    No es compatible con HTML5. Use CSS en su lugar. Define el texto de teletipo
+
+<u>                     Define un texto que no está articulado y tiene un estilo diferente al texto normal
+
+<ul>                    Define una lista desordenada
+
+<var>                   Define una variable
+
+<video>                 Define contenido de video incrustado
+
+<wbr>                   Define un posible salto de línea
+
+
+
+
+    <input type="button">
+    <input type="checkbox">
+    <input type="color">
+    <input type="date">
+    <input type="datetime-local">
+    <input type="email">
+    <input type="file">
+    <input type="hidden">
+    <input type="image">
+    <input type="month">
+    <input type="number">
+    <input type="password">
+    <input type="radio">
+    <input type="range">
+    <input type="reset">
+    <input type="search">
+    <input type="submit">
+    <input type="tel">
+    <input type="text"> (default value)
+    <input type="time">
+    <input type="url">
+    <input type="week">
