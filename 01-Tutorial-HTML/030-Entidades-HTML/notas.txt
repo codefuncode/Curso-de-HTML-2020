@@ -1,0 +1,40 @@
+notas.txt
+
+https://www.freeformatter.com/html-entities.html
+
+https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references
+
+Los caracteres reservados en HTML deben reemplazarse con entidades de caracteres.
+Entidades HTML
+
+Algunos caracteres están reservados en HTML.
+
+Si usa los signos menor que () o mayor que () en su texto, el navegador puede mezclarlos con etiquetas.
+
+Las entidades de caracteres se utilizan para mostrar caracteres reservados en HTML.
+
+Una entidad de carácter se ve así:
+
+Para mostrar un signo menor que () debemos escribir: &lt; or &#60;
+
+Ventaja de utilizar un nombre de entidad: el nombre de una entidad es fácil de recordar.
+Desventaja de usar un nombre de entidad: es posible que los navegadores no admitan todos los nombres de entidad, pero la compatibilidad con los números de entidad es buena.
+Espacio irrompible
+
+Una entidad de uso común en HTML es el espacio que no se divide: &nbsp;
+
+Un espacio que no se rompe es un espacio que no se rompe en una nueva línea.
+
+Dos palabras separadas por un espacio que no se separa se pegarán juntas (no se romperán en una nueva línea). Esto es útil cuando romper las palabras puede ser perturbador.
+
+Ejemplos:
+
+    § 10
+    10 km / h
+    10 p. M.
+
+Otro uso común del espacio no divisible es evitar que los navegadores trunquen espacios en las páginas HTML.
+
+Si escribe 10 espacios en su texto, el navegador eliminará 9 de ellos. Para agregar espacios reales a su texto, puede usar la entidad de carácter.
+
+Sugerencia: El guión que no se separa (-) se utiliza para definir un carácter de guión (-) que no se divide en una nueva línea.
