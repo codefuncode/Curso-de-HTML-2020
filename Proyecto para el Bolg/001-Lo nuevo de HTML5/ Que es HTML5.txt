@@ -1,0 +1,196 @@
+¿ Que es HTML5 ?
+
+HTML5 es la última evolución del estándar que define HTML. 
+El término representa dos conceptos diferentes. 
+Es una nueva versión del lenguaje HTML, con nuevos elementos, atributos y comportamientos, y un conjunto más amplio de tecnologías que permite la construcción de sitios web y aplicaciones más diversos y poderosos. 
+Este conjunto a veces se denomina HTML5 y amigos y, a menudo, se abrevia a HTML5.
+
+Diseñada para que la puedan utilizar todos los desarrolladores de Open Web, esta página de referencia enlaza con numerosos recursos sobre tecnologías HTML5, clasificados en varios grupos según su función.
+
+Semántica: te permite describir con mayor precisión cuál es tu contenido.
+
+Conectividad: le permite comunicarse con el servidor de formas nuevas e innovadoras.
+
+Sin conexión y almacenamiento: permite que las páginas web almacenen datos en el lado del cliente localmente y operen sin conexión de manera más eficiente.
+
+Multimedia: hacer ciudadanos de primera clase en vídeo y audio en la Web Abierta.
+Gráficos y efectos 2D / 3D: permiten una gama mucho más diversa de opciones de presentación.
+Rendimiento e integración: proporciona una mayor optimización de la velocidad y un mejor uso del hardware informático.
+
+Acceso al dispositivo: permite el uso de varios dispositivos de entrada y salida.
+
+Estilo: permitir que los autores escriban temas más sofisticados.
+
+
+Secciones y esquemas en HTML5
+    Un vistazo a los nuevos elementos de esquema y sección en HTML5: sección, artículo, navegación, encabezado, pie de página y aparte.
+
+Usar audio y video HTML5
+    Los elementos de audio y video se integran y permiten la manipulación de nuevos contenidos multimedia.
+
+Mejoras de formularios
+    Una mirada a la API de validación de restricciones, varios atributos nuevos, nuevos valores para el tipo de atributo de entrada y el nuevo elemento de salida.
+
+Nuevos elementos semánticos
+    Además de las secciones, los medios y los elementos de formularios, hay numerosos elementos nuevos, como marca, figura, título de figura, datos, tiempo, salida, progreso o medidor y principal, lo que aumenta el número de elementos HTML5 válidos.
+
+Mejora en iframe
+    Usando los atributos sandbox y srcdoc, los autores ahora pueden ser precisos sobre el nivel de seguridad y la representación deseada de un elemento iframe.
+
+MathML
+    Permite incrustar directamente fórmulas matemáticas.
+
+Introducción a HTML5
+    Este artículo presenta cómo indicarle al navegador que está utilizando HTML5 en su diseño web o aplicación web.
+
+Guía de referencia de HTML5
+    Hoja HTML5 de referencia rápida que contiene generadores de marcas, ejemplos de código y herramientas de desarrollo web. La guía se puede descargar para facilitar su uso y acceso. Esta página fue creada con la ayuda del W3C como una guía rápida para aquellos que tienen alguna familiaridad básica y experiencia en el uso de HTML5.
+
+Guía HTML5 descargable
+    Una guía rápida de HTML5, incluidas las etiquetas HTML comunes, así como las nuevas etiquetas HTML5. Descargable en formatos PDF y PNG.
+
+Hoja de referencia de HTML5
+    Una práctica hoja de trucos de HTML 5 para principiantes que desean dominar HTML 5, sus elementos, atributos de eventos y compatibilidad.
+
+Analizador compatible con HTML5
+    El analizador, que convierte los bytes de un documento HTML en un DOM, se ha ampliado y ahora define con precisión el comportamiento a utilizar en todos los casos, incluso cuando se enfrenta a HTML no válido. Esto conduce a una mayor previsibilidad e interoperabilidad entre los navegadores compatibles con HTML5.
+
+Conectividad
+
+Zócalos Web
+    Permite crear una conexión permanente entre la página y el servidor e intercambiar datos no HTML a través de ese medio.
+
+Eventos enviados por el servidor
+    Permite que un servidor envíe eventos a un cliente, en lugar del paradigma clásico donde el servidor podría enviar datos solo en respuesta a la solicitud de un cliente.
+
+WebRTC
+    Esta tecnología, donde RTC significa Comunicación en Tiempo Real, permite conectarse con otras personas y controlar las videoconferencias directamente en el navegador, sin necesidad de un plugin o una aplicación externa.
+
+Sin conexión y almacenamiento
+
+Recursos sin conexión: la caché de la aplicación
+
+    Firefox es totalmente compatible con la especificación de recursos fuera de línea HTML5. La mayoría de los demás tienen soporte de recursos sin conexión en algún nivel.
+
+Eventos online y offline
+    Firefox 3 admite eventos WHATWG en línea y fuera de línea, que permiten que las aplicaciones y extensiones detecten si hay o no una conexión a Internet activa, así como también detectar cuando la conexión sube y baja.
+
+WHATWG sesión del lado del cliente y almacenamiento persistente (también conocido como almacenamiento DOM)
+    La sesión del lado del cliente y el almacenamiento persistente permiten que las aplicaciones web almacenen datos estructurados en el lado del cliente.
+
+IndexedDB
+    IndexedDB es un estándar web para el almacenamiento de cantidades significativas de datos estructurados en el navegador y para búsquedas de alto rendimiento en estos datos mediante índices.
+
+Usar archivos de aplicaciones web
+    Se ha agregado soporte para la nueva API de archivos HTML5 a Gecko, lo que hace posible que las aplicaciones web accedan a los archivos locales seleccionados por el usuario. Esto incluye soporte para seleccionar varios archivos utilizando la entrada del nuevo atributo múltiple del elemento HTML de tipo archivo. También existe FileReader.
+
+Multimedia
+
+Usar audio y vídeo HTML5
+    Los elementos de audio y vídeo se integran y permiten la manipulación de nuevos contenidos multimedia.
+
+WebRTC
+    Esta tecnología, donde RTC significa Comunicación en Tiempo Real, permite conectarse con otras personas y controlar las videoconferencias directamente en el navegador, sin necesidad de un plugin o una aplicación externa.
+
+Usando la API de la cámara
+    Permite usar, manipular y almacenar una imagen de la cámara de la computadora.
+
+Seguimiento y WebVTT
+    El elemento de pista permite subtítulos y capítulos. WebVTT es un formato de pista de texto.
+
+Gráficos y efectos 2D / 3D
+
+Tutorial de lienzo
+    Obtenga información sobre el nuevo elemento de lienzo y cómo dibujar gráficos y otros objetos en Firefox.
+
+API de texto HTML5 para elementos de lienzo
+    La API de texto HTML5 ahora es compatible con elementos de lienzo.
+
+WebGL
+    WebGL trae gráficos 3D a la Web mediante la introducción de una API que se ajusta estrechamente a OpenGL ES 2.0 que se puede utilizar en elementos de lienzo HTML5.
+
+SVG
+    Un formato de imágenes vectoriales basado en XML que se puede incrustar directamente en el HTML.
+
+
+Rendimiento e integración
+
+Trabajadores web
+    Permite la delegación de la evaluación de JavaScript a subprocesos en segundo plano, lo que permite que estas actividades eviten la ralentización de los eventos interactivos.
+
+XMLHttpRequest nivel 2
+    Permite obtener de forma asincrónica algunas partes de la página, lo que le permite mostrar contenido dinámico, variando según el tiempo y las acciones del usuario. Esta es la tecnología detrás de Ajax.
+
+Motores JavaScript de compilación JIT
+    La nueva generación de motores JavaScript es mucho más potente, lo que conduce a un mayor rendimiento.
+
+API de historial
+    Permite la manipulación del historial del navegador. Esto es especialmente útil para páginas que cargan información nueva de forma interactiva.
+
+El atributo contentEditable: ¡Transforma tu sitio web en un wiki!
+    HTML5 ha estandarizado el atributo contentEditable. Obtenga más información sobre esta función.
+
+Arrastrar y soltar
+    La API de arrastrar y soltar HTML5 permite el soporte para arrastrar y soltar elementos dentro y entre sitios web. Esto también proporciona una API más simple para ser utilizada por extensiones y aplicaciones basadas en Mozilla.
+
+Gestión de foco en HTML
+    Se admiten los nuevos atributos HTML5 activeElement y hasFocus.
+
+Controladores de protocolo basados ​​en web
+    Ahora puede registrar aplicaciones web como controladores de protocolo mediante el método navigator.registerProtocolHandler ().
+
+requestAnimationFrame
+    Permite controlar el renderizado de animaciones para obtener un rendimiento óptimo.
+
+API de pantalla completa
+    Controla el uso de toda la pantalla para una página web o aplicación, sin que se muestre la interfaz de usuario del navegador.
+
+API de bloqueo de puntero
+    Permite bloquear el puntero al contenido, para que los juegos y aplicaciones similares no pierdan el foco cuando el puntero alcanza el límite de la ventana.
+
+Eventos online y offline
+    Para crear una buena aplicación web con capacidad fuera de línea, necesita saber cuándo su aplicación está realmente fuera de línea. Por cierto, también debe saber cuándo su solicitud ha vuelto a estar en línea.
+
+Acceso al dispositivo
+
+
+Usando la API de la cámara
+    Permite usar, manipular y almacenar una imagen de la cámara de la computadora.
+
+Toque eventos
+    Controladores para reaccionar a eventos creados por un usuario presionando pantallas táctiles.
+
+Usando geolocalización
+    Permita que los navegadores ubiquen la posición del usuario mediante la geolocalización.
+
+Detectar la orientación del dispositivo
+    Obtenga la información cuando el dispositivo en el que se ejecuta el navegador cambie de orientación. Esto se puede utilizar como un dispositivo de entrada (por ejemplo, para hacer juegos que reaccionen a la posición del dispositivo) o para adaptar el diseño de una página a la orientación de la pantalla (vertical u horizontal).
+
+API de bloqueo de puntero
+    Permite bloquear el puntero en el contenido, por lo que los juegos y aplicaciones similares no pierden el foco cuando el puntero alcanza el límite de la ventana.
+
+Estilizar
+
+CSS se ha ampliado para poder diseñar elementos de una forma mucho más compleja. Esto a menudo se conoce como CSS3, aunque CSS ya no es una especificación monolítica y los diferentes módulos no están todos en el nivel 3: algunos están en el nivel 1 y otros en el nivel 4, con todos los niveles intermedios cubiertos.
+
+Nuevas funciones de estilo de fondo
+    Ahora es posible poner sombras en los elementos usando box-shadow, múltiples fondos y filtros CSS. Puede obtener más información al respecto leyendo Efectos de cuadro avanzados.
+
+Fronteras más elegantes
+    No solo ahora es posible usar imágenes para diseñar bordes, usando border-image y sus propiedades asociadas a mano, sino que los bordes redondeados son compatibles mediante la propiedad border-radius.
+
+Animando tu estilo
+    Usando Transiciones CSS para animar entre diferentes estados o usando Animaciones CSS para animar partes de la página sin un evento desencadenante, ahora puede controlar elementos móviles en su página.
+
+Mejora de la tipografía
+    Los autores tienen un mejor control para alcanzar una mejor tipografía. Pueden controlar el desbordamiento del texto y la separación de sílabas, pero también pueden agregarle una sombra o controlar con mayor precisión sus decoraciones. Los tipos de letra personalizados se pueden descargar y aplicar gracias a la nueva regla 
+ font-face at-rule.
+
+Nuevos diseños de presentación
+    Para mejorar la flexibilidad de los diseños, se han agregado dos nuevos diseños: los diseños CSS de varias columnas y el diseño de caja flexible CSS.
+
+    Referencias
+    https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
+    https://www.javatpoint.com/html5-tutorial
+    https://www.tutorialspoint.com/html5/index.htm
+    https://www.w3schools.com/html/default.asp

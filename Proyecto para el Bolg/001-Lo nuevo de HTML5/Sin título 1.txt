@@ -1,0 +1,21 @@
+Semántica
+
+Conectividad
+
+Sin conexión y almacenamiento
+
+Multimedia
+
+Acceso al dispositivo
+
+Secciones y esquemas en HTML5
+
+Usar audio y video HTML5
+
+Mejoras de formularios
+
+Nuevos elementos semánticos
+
+Mejora en iframe
+
+MathML

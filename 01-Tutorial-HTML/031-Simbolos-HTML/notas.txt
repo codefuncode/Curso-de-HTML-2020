@@ -1,0 +1,39 @@
+
+========================================
+Buscando información sobre los símbolos 
+========================================
+
+
+
+Los símbolos que no están presentes en su teclado también se pueden agregar usando entidades.
+Entidades de símbolo HTML
+
+Las entidades HTML se describieron en el capítulo anterior.
+
+Muchos símbolos matemáticos, técnicos y monetarios no están presentes en un teclado normal.
+
+Para agregar tales símbolos a una página HTML, puede usar el nombre de la entidad o el número de la entidad (una referencia decimal o hexadecimal) para el símbolo.
+
+Algunos símbolos matemáticos compatibles con HTML
+
+Char 	Number 		Entity 		Description
+
+∀ 		&#8704; 	&forall; 	PARA TODOS
+
+∂ 		&#8706; 	&part; 		DIFERENCIAL PARCIAL
+
+∃ 		&#8707; 	&exist; 	EXISTE
+
+∅ 		&#8709; 	&empty; 	JUEGOS VACÍOS
+
+∇ 		&#8711; 	&nabla; 	NABLA
+
+∈ 		&#8712; 	&isin; 		ELEMENT OF
+
+∉ 		&#8713; 	&notin; 	NOT AN ELEMENT OF
+
+∋ 		&#8715; 	&ni; 		CONTAINS AS MEMBER
+
+∏ 		&#8719; 	&prod; 		N-ARY PRODUCT
+
+∑ 		&#8721; 	&sum; 		N-ARY SUMMATION
